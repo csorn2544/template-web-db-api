@@ -1,0 +1,27 @@
+﻿@WebAPI_HostAddress = https://localhost:44387
+
+POST {{WebAPI_HostAddress}}/user/create-user
+Content-Type: application/json
+
+{
+  "username" : "User2"
+}
+
+###
+
+
+POST {{WebAPI_HostAddress}}/pdpaconsent/pdpa-consent-create
+Content-Type: application/json
+
+{
+    "Name" : "Test",
+    "Version" : "Test",
+    "TitleTh" : "Test",
+    "TitleEn" : "Test",
+    "TitleZh" : "Test",
+    "DescriptionTh" : "Test",
+    "DescriptionEn" : "Test",
+    "DescriptionZh" : "Test"
+}
+
+###
