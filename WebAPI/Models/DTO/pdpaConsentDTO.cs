@@ -9,11 +9,12 @@
     public string DescriptionEn { get; set; }
     public string DescriptionZh { get; set; }
     public DateTime? Date { get; set; } = DateTime.UtcNow;
+    public int userId { get; set; }
     public PdpaConsentDTO() { }
 
     public PdpaConsentDTO(PdpaConsent pdpaConsentItem)
     {
-        (Name, Version, TitleTh, TitleEn, TitleZh, DescriptionTh, DescriptionEn, DescriptionZh, Date) = (
+        (Name, Version, TitleTh, TitleEn, TitleZh, DescriptionTh, DescriptionEn, DescriptionZh, Date, userId) = (
             pdpaConsentItem.Name,
             pdpaConsentItem.Version,
             pdpaConsentItem.TitleTh,
@@ -22,7 +23,8 @@
             pdpaConsentItem.DescriptionTh,
             pdpaConsentItem.DescriptionEn,
             pdpaConsentItem.DescriptionZh,
-            pdpaConsentItem.Date
+            pdpaConsentItem.Date,
+            pdpaConsentItem.userId
 
         );
 
