@@ -7,7 +7,6 @@ public class Brand
   public string NameTh { get; set; }
   public string NameEn { get; set; }
   public string NameZh { get; set; }
-  public string creationTime { get; set; }
-  public int Status  { get; set; }
+  public int Status { get; set; } = 1;
 }
 
