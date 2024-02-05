@@ -1,27 +1,29 @@
-﻿@WebAPI_HostAddress = https://localhost:44387
-
-POST {{WebAPI_HostAddress}}/user/create-user
+﻿@WebAPI_HostAddress = https://localhost:7095
+POST {{WebAPI_HostAddress}}/api/v1/pdpa-consent-get
 Content-Type: application/json
 
 {
-  "username" : "User2"
+  "pageNumber": 1,
+  "pageSize": 5,
+  "filterType": 0,
+  "filterValue": ""
 }
 
 ###
 
-
-POST {{WebAPI_HostAddress}}/pdpaconsent/pdpa-consent-create
+POST {{WebAPI_HostAddress}}/api/v1/pdpa-consent-create
 Content-Type: application/json
 
 {
-    "Name" : "Test",
-    "Version" : "Test",
-    "TitleTh" : "Test",
-    "TitleEn" : "Test",
-    "TitleZh" : "Test",
-    "DescriptionTh" : "Test",
-    "DescriptionEn" : "Test",
-    "DescriptionZh" : "Test"
+  "conCode": "string",
+  "status": 0,
+  "version": "string",
+  "titleTh": "string",
+  "titleEn": "string",
+  "titleZh": "string",
+  "descriptionTh": "string",
+  "descriptionEn": "string",
+  "descriptionZh": "string"
 }
 
 ###
