@@ -1,0 +1,19 @@
+﻿@api_HostAddress = https://localhost:7095
+
+POST {{api_HostAddress}}/api/v1/pdpa-consent-get
+Content-Type: application/json
+
+{
+  //PdpaConsentGet
+}
+
+###
+
+POST {{api_HostAddress}}/api/v1/pdpa-consent-create
+Content-Type: application/json
+
+{
+  //PdpaConsentCreate
+}
+
+###

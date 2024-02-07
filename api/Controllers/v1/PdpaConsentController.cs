@@ -8,7 +8,7 @@ namespace api.Controllers.v1
 {
     [Route("api/v1/")]
     [ApiExplorerSettings(GroupName = "v1")]
-    public class PdpaController : ApiControllerBase
+    public class PdpaConsentController : ApiControllerBase
     {
         /// <summary>
         ///  Get PDPA Consent
