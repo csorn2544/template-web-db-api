@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\application\\application.csproj": {}
+  },
+  "projects": {
+    "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\application\\application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\application\\application.csproj",
+        "projectName": "application",
+        "projectPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\application\\application.csproj",
+        "packagesPath": "C:\\Users\\chanisorn\\.nuget\\packages\\",
+        "outputPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chanisorn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj": {
+                "projectPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.28, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "MediatR.Extensions.Autofac.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj",
+        "projectName": "domain",
+        "projectPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj",
+        "packagesPath": "C:\\Users\\chanisorn\\.nuget\\packages\\",
+        "outputPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chanisorn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

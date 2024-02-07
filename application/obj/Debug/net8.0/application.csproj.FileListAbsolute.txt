@@ -1,0 +1,16 @@
+D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\application\obj\Debug\net8.0\application.csproj.AssemblyReference.cache
+D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\application\obj\Debug\net8.0\application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\application\obj\Debug\net8.0\application.AssemblyInfoInputs.cache
+D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\application\obj\Debug\net8.0\application.AssemblyInfo.cs
+D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\application\obj\Debug\net8.0\application.csproj.CoreCompileInputs.cache
+D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\application\obj\Debug\net8.0\application.sourcelink.json
+D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\application\bin\Debug\net8.0\application.deps.json
+D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\application\bin\Debug\net8.0\application.dll
+D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\application\bin\Debug\net8.0\application.pdb
+D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\application\bin\Debug\net8.0\domain.dll
+D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\application\bin\Debug\net8.0\domain.pdb
+D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\application\obj\Debug\net8.0\application.csproj.CopyComplete
+D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\application\obj\Debug\net8.0\application.dll
+D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\application\obj\Debug\net8.0\refint\application.dll
+D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\application\obj\Debug\net8.0\application.pdb
+D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\application\obj\Debug\net8.0\ref\application.dll

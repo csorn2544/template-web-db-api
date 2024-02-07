@@ -1,0 +1,356 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\api\\api.csproj": {}
+  },
+  "projects": {
+    "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\api\\api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\api\\api.csproj",
+        "projectName": "api",
+        "projectPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\api\\api.csproj",
+        "packagesPath": "C:\\Users\\chanisorn\\.nuget\\packages\\",
+        "outputPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chanisorn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\infra\\infra.csproj": {
+                "projectPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\infra\\infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\application\\application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\application\\application.csproj",
+        "projectName": "application",
+        "projectPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\application\\application.csproj",
+        "packagesPath": "C:\\Users\\chanisorn\\.nuget\\packages\\",
+        "outputPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chanisorn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj": {
+                "projectPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.28, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "MediatR.Extensions.Autofac.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj",
+        "projectName": "domain",
+        "projectPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj",
+        "packagesPath": "C:\\Users\\chanisorn\\.nuget\\packages\\",
+        "outputPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chanisorn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\infra\\infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\infra\\infra.csproj",
+        "projectName": "infra",
+        "projectPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\infra\\infra.csproj",
+        "packagesPath": "C:\\Users\\chanisorn\\.nuget\\packages\\",
+        "outputPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chanisorn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\application\\application.csproj": {
+                "projectPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\application\\application.csproj"
+              },
+              "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj": {
+                "projectPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.19.1, )"
+            },
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.102.1, )"
+            },
+            "ExcelDataReader": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "ExcelDataReader.DataSet": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "ExcelNumberFormat": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Bcl.AsyncInterfaces": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.0-beta.2, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
