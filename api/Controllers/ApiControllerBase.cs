@@ -2,7 +2,7 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace WebAPI.Controllers
+namespace api.Controllers
 {
     [ApiController]
     //[ServiceFilter(typeof(ExtractHeaderOnResourceFilterAttribute))]
