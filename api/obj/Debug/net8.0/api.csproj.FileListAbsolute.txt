@@ -91,3 +91,4 @@ D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\api\obj\Debug\n
 D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\api\obj\Debug\net8.0\api.pdb
 D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\api\obj\Debug\net8.0\api.genruntimeconfig.cache
 D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\api\obj\Debug\net8.0\ref\api.dll
+D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\api\obj\Debug\net8.0\api.MvcApplicationPartsAssemblyInfo.cs

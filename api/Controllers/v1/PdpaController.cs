@@ -4,7 +4,7 @@ using application.Feature.PDPA.Queries;
 using domain.Common.DTO;
 using Microsoft.AspNetCore.Mvc;
 
-namespace WebAPI.Controllers.v1
+namespace api.Controllers.v1
 {
     [Route("api/v1/")]
     [ApiExplorerSettings(GroupName = "v1")]
