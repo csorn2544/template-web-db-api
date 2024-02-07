@@ -4,7 +4,10 @@ POST {{api_HostAddress}}/api/v1/pdpa-consent-get
 Content-Type: application/json
 
 {
-  //PdpaConsentGet
+  "pageNumber": 1,
+  "pageSize": 5,
+  "filterType": 0,
+  "filterValue": ""
 }
 
 ###
@@ -13,7 +16,16 @@ POST {{api_HostAddress}}/api/v1/pdpa-consent-create
 Content-Type: application/json
 
 {
-  //PdpaConsentCreate
+  "conCode": "string",
+  "status": 0,
+  "version": "string",
+  "titleTh": "string",
+  "titleEn": "string",
+  "titleZh": "string",
+  "descriptionTh": "string",
+  "descriptionEn": "string",
+  "descriptionZh": "string",
+  "creatorUserId": 0
 }
 
 ###
