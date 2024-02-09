@@ -14,6 +14,12 @@ namespace application.Feature.PDPA.Mapper
 
             // Mapping from Models.PDPA.PdpaConsent to PdpaConsentDto
             CreateMap<PdpaConsent, PdpaConsentDto>();
+
+            // Mapping from PdpaPrivacyCreate to Models.PDPA.PdpaPrivacy
+            CreateMap<PdpaPrivacyCreate, PdpaPrivacy>();
+
+            // Mapping from Model.PDPA.Pdpaprivacy to PdpaPrivacy
+            CreateMap<PdpaPrivacy, PdpaPrivacyDTO>();
         }
     }
 }
