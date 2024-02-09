@@ -10,3 +10,15 @@ D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\domain\obj\Debu
 D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\domain\obj\Debug\net8.0\refint\domain.dll
 D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\domain\obj\Debug\net8.0\domain.pdb
 D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\domain\obj\Debug\net8.0\ref\domain.dll
+C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\domain\bin\Debug\net8.0\domain.deps.json
+C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\domain\bin\Debug\net8.0\domain.dll
+C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\domain\bin\Debug\net8.0\domain.pdb
+C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\domain\obj\Debug\net8.0\domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\domain\obj\Debug\net8.0\domain.AssemblyInfoInputs.cache
+C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\domain\obj\Debug\net8.0\domain.AssemblyInfo.cs
+C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\domain\obj\Debug\net8.0\domain.csproj.CoreCompileInputs.cache
+C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\domain\obj\Debug\net8.0\domain.sourcelink.json
+C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\domain\obj\Debug\net8.0\domain.dll
+C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\domain\obj\Debug\net8.0\refint\domain.dll
+C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\domain\obj\Debug\net8.0\domain.pdb
+C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\domain\obj\Debug\net8.0\ref\domain.dll

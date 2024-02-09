@@ -8,6 +8,7 @@ using Serilog;
 using System.Text.Encodings.Web;
 using System.Text.Json.Serialization;
 using System.Text.Json;
+using Microsoft.Extensions.Options;
 
 namespace api.Extensions
 {
@@ -20,7 +21,7 @@ namespace api.Extensions
             builder.Services.AddDbContext<_dbContext>(opt =>
             {
                 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-                opt.UseNpgsql(connectionString);
+                opt.UseNpgsql(connectionString, b => b.MigrationsAssembly("api"));
             });
 
             builder.Services.AddCors();

@@ -9,9 +9,7 @@ namespace infra.Persistence.Configuration
     {
         public void Configure(EntityTypeBuilder<PdpaPrivacy> entity) 
         {
-
-            entity.HasKey(e => e.Id).HasName("PRIMARY");
-
+            entity.HasKey(e => e.Id);
             entity.Property(e => e.Id).HasColumnType("int");
             entity.Property(e => e.DescriptionEn).HasColumnName("DescriptionEN");
             entity.Property(e => e.DescriptionTh).HasColumnName("DescriptionTH");
@@ -19,7 +17,10 @@ namespace infra.Persistence.Configuration
             entity.Property(e => e.PpCode)
                 .HasMaxLength(10)
                 .HasColumnName("PP_Code");
-            entity.Property(e => e.Status).HasColumnType("bit(1)");
+            entity.Property(e => e.Status).HasConversion(new ValueConverter<ulong?, int?>(
+            v => (int?)v,
+            v => (ulong?)v
+            ));
             entity.Property(e => e.TitleEn).HasColumnName("TitleEN");
             entity.Property(e => e.TitleTh).HasColumnName("TitleTH");
             entity.Property(e => e.TitleZh).HasColumnName("TitleZH");

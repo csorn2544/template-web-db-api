@@ -14,3 +14,19 @@ D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\application\obj
 D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\application\obj\Debug\net8.0\refint\application.dll
 D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\application\obj\Debug\net8.0\application.pdb
 D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\application\obj\Debug\net8.0\ref\application.dll
+C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\application\bin\Debug\net8.0\application.deps.json
+C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\application\bin\Debug\net8.0\application.dll
+C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\application\bin\Debug\net8.0\application.pdb
+C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\application\bin\Debug\net8.0\domain.dll
+C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\application\bin\Debug\net8.0\domain.pdb
+C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\application\obj\Debug\net8.0\application.csproj.AssemblyReference.cache
+C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\application\obj\Debug\net8.0\application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\application\obj\Debug\net8.0\application.AssemblyInfoInputs.cache
+C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\application\obj\Debug\net8.0\application.AssemblyInfo.cs
+C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\application\obj\Debug\net8.0\application.csproj.CoreCompileInputs.cache
+C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\application\obj\Debug\net8.0\application.sourcelink.json
+C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\application\obj\Debug\net8.0\application.csproj.CopyComplete
+C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\application\obj\Debug\net8.0\application.dll
+C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\application\obj\Debug\net8.0\refint\application.dll
+C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\application\obj\Debug\net8.0\application.pdb
+C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\application\obj\Debug\net8.0\ref\application.dll
