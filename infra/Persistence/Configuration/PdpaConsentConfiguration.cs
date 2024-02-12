@@ -9,19 +9,15 @@ namespace infra.Persistence.Configuration
     {
         public void Configure(EntityTypeBuilder<PdpaConsent> entity)
         {
-            entity.HasKey(e => e.Id).HasName("PRIMARY");
-
-            entity.ToTable("pdpa_consent");
-
+            entity.HasKey(e => e.Id);
             entity.Property(e => e.Id).HasColumnType("int");
             entity.Property(e => e.ConCode)
                 .HasMaxLength(10)
                 .HasColumnName("Con_Code");
-
             entity.Property(e => e.DescriptionEn).HasColumnName("DescriptionEN");
             entity.Property(e => e.DescriptionTh).HasColumnName("DescriptionTH");
             entity.Property(e => e.DescriptionZh).HasColumnName("DescriptionZH");
-            entity.Property(x => x.Status).HasConversion(new ValueConverter<ulong?, int?>(
+            entity.Property(e => e.Status).HasConversion(new ValueConverter<ulong?, int?>(
             v => (int?)v,
             v => (ulong?)v
             ));

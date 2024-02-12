@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\chanisorn\\.nuget\\packages\\": {}
+    "C:\\Users\\pimmada\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj",
+      "projectUniqueName": "D:\\Pimmada Khumdinpithak\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj",
       "projectName": "domain",
-      "projectPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj",
-      "packagesPath": "C:\\Users\\chanisorn\\.nuget\\packages\\",
-      "outputPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\obj\\",
+      "projectPath": "D:\\Pimmada Khumdinpithak\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj",
+      "packagesPath": "C:\\Users\\pimmada\\.nuget\\packages\\",
+      "outputPath": "D:\\Pimmada Khumdinpithak\\Documents\\GitHub\\template-web-db-api\\domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\chanisorn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pimmada\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
