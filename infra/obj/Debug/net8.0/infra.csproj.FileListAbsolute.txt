@@ -36,3 +36,23 @@ C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\infra\obj\Debug\net8.0\in
 C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\infra\obj\Debug\net8.0\ref\infra.dll
 C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\infra\bin\Debug\net8.0\infra.runtimeconfig.json
 C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\infra\obj\Debug\net8.0\infra.genruntimeconfig.cache
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\infra\bin\Debug\net8.0\infra.deps.json
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\infra\bin\Debug\net8.0\infra.runtimeconfig.json
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\infra\bin\Debug\net8.0\infra.dll
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\infra\bin\Debug\net8.0\infra.pdb
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\infra\bin\Debug\net8.0\application.dll
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\infra\bin\Debug\net8.0\domain.dll
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\infra\bin\Debug\net8.0\application.pdb
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\infra\bin\Debug\net8.0\domain.pdb
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\infra\obj\Debug\net8.0\infra.csproj.AssemblyReference.cache
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\infra\obj\Debug\net8.0\infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\infra\obj\Debug\net8.0\infra.AssemblyInfoInputs.cache
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\infra\obj\Debug\net8.0\infra.AssemblyInfo.cs
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\infra\obj\Debug\net8.0\infra.csproj.CoreCompileInputs.cache
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\infra\obj\Debug\net8.0\infra.sourcelink.json
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\infra\obj\Debug\net8.0\infra.csproj.CopyComplete
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\infra\obj\Debug\net8.0\infra.dll
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\infra\obj\Debug\net8.0\refint\infra.dll
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\infra\obj\Debug\net8.0\infra.pdb
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\infra\obj\Debug\net8.0\infra.genruntimeconfig.cache
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\infra\obj\Debug\net8.0\ref\infra.dll

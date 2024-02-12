@@ -12,8 +12,8 @@ using infra.Persistence;
 namespace api.Migrations
 {
     [DbContext(typeof(_dbContext))]
-    [Migration("20240209143438_IntialCreate")]
-    partial class IntialCreate
+    [Migration("20240212013635_intialCreate")]
+    partial class intialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

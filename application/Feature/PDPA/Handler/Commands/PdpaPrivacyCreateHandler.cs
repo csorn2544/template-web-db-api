@@ -14,23 +14,20 @@ namespace application.Feature.PDPA.Handler.Commands
 {
     
     public sealed class PdpaPrivacyCreateHandler(IMapper mapper,
-                        IPdpaPrivacyRepository repository,
-                        IRequestHeaders requestHeaders) :
+                        IPdpaPrivacyRepository repository) :
                         IRequestHandler<PdpaPrivacyCreate, ResultResponse<List<bool>>>
     {
         private readonly IMapper _mapper = mapper;
         private readonly IPdpaPrivacyRepository _repository = repository;
-        private readonly IRequestHeaders _requestHeaders = requestHeaders;
 
         public async Task<ResultResponse<List<bool>>> Handle(PdpaPrivacyCreate request, CancellationToken cancellationToken)
         {
             List<bool> Result = [];
             string Message = string.Empty;
             var item = _mapper.Map<PdpaPrivacy>(request);
-            item.CreationTime = DateTime.Now;
+            item.CreationTime = DateTime.UtcNow;
             item.Status = 1;
             item.IsDeleted = 0;
-            Log.Information(_requestHeaders.Get().Oid);
             var response = await _repository.CreateAsync(item, cancellationToken);
             if (response is null)
             {

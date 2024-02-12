@@ -30,3 +30,19 @@ C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\application\obj\Debug\net
 C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\application\obj\Debug\net8.0\refint\application.dll
 C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\application\obj\Debug\net8.0\application.pdb
 C:\Users\Admins\Desktop\myCode\C_#\template-web-db-api\application\obj\Debug\net8.0\ref\application.dll
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\application\bin\Debug\net8.0\application.deps.json
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\application\bin\Debug\net8.0\application.dll
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\application\bin\Debug\net8.0\application.pdb
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\application\bin\Debug\net8.0\domain.dll
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\application\bin\Debug\net8.0\domain.pdb
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\application\obj\Debug\net8.0\application.csproj.AssemblyReference.cache
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\application\obj\Debug\net8.0\application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\application\obj\Debug\net8.0\application.AssemblyInfoInputs.cache
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\application\obj\Debug\net8.0\application.AssemblyInfo.cs
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\application\obj\Debug\net8.0\application.csproj.CoreCompileInputs.cache
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\application\obj\Debug\net8.0\application.sourcelink.json
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\application\obj\Debug\net8.0\application.csproj.CopyComplete
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\application\obj\Debug\net8.0\application.dll
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\application\obj\Debug\net8.0\refint\application.dll
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\application\obj\Debug\net8.0\application.pdb
+D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\application\obj\Debug\net8.0\ref\application.dll

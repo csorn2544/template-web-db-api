@@ -24,7 +24,7 @@ public class PdpaPrivacyController : ApiControllerBase
         return Ok(await _mediator.Send(Get, cancellationToken));
     }
 
-   /* 
+   
     /// <summary>
     ///  Create PdpaPrivacy
     /// </summary>
@@ -35,6 +35,6 @@ public class PdpaPrivacyController : ApiControllerBase
     public async Task<ActionResult<ResultResponse<List<PdpaPrivacyDTO>>>> Create([FromBody] PdpaPrivacyCreate Create, CancellationToken cancellationToken = default)
     {
         return Ok(await _mediator.Send(Create, cancellationToken));
-    }*/
+    }
 }
 
