@@ -5,6 +5,5 @@ namespace domain.IRepositories.PDPA
 {
     public interface IPdpaPrivacyRepository : IRepository<PdpaPrivacy>
     {
-
     }
 }

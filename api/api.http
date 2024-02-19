@@ -1,1 +1,32 @@
-﻿
+﻿@api_HostAddress = https://localhost:7095
+
+POST {{api_HostAddress}}/api/v1/pdpa-privacy-get
+Content-Type: application/json
+
+{
+  //PdpaPrivacyGet
+}
+
+###
+
+PUT {{api_HostAddress}}/api/v1/pdpa-privacy-update
+Content-Type: application/json
+
+{
+  "id": 4,
+      "ppCode": "string",
+      "status": 1,
+      "version": "string",
+      "titleTh": "string",
+      "titleEn": "string",
+      "titleZh": "string",
+      "descriptionTh": "555",
+      "descriptionEn": "ถถถถถ",
+      "descriptionZh": "ถถถถถ",
+     
+}
+
+###
+
+
+###
