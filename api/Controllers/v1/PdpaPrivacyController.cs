@@ -55,7 +55,7 @@ public class PdpaPrivacyController : ApiControllerBase
     /// <param name="cancellationToken">CancellationToken</param>
     /// <returns>Return</returns>
 
-    [HttpPut("pdpa-privacy-update")]
+    [HttpPost("pdpa-privacy-update")]
     public async Task<ActionResult<ResultResponse<List<PdpaPrivacyDTO>>>> Update([FromBody] PdpaPrivacyUpdate Update,CancellationToken cancellationToken = default)
     {
         return Ok(await _mediator.Send(Update, cancellationToken));
