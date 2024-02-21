@@ -21,6 +21,7 @@ namespace application.Feature.PDPA.Commands
             var message = string.Empty;
             var item = _mapper.Map<PdpaConsent>(request);
             item.CreationTime = DateTime.UtcNow;
+            item.Status = 1;
             item.CreatorUserId = request.CreatorUserId;
             var response = await _repository.CreateAsync(item, cancellationToken);
             if (response is null)

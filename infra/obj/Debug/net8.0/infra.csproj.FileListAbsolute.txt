@@ -56,3 +56,5 @@ D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\infra\obj\Debug\ne
 D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\infra\obj\Debug\net8.0\infra.pdb
 D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\infra\obj\Debug\net8.0\infra.genruntimeconfig.cache
 D:\Pimmada Khumdinpithak\Documents\GitHub\template-web-db-api\infra\obj\Debug\net8.0\ref\infra.dll
+D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\infra\bin\Debug\net8.0\infra.runtimeconfig.json
+D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\infra\obj\Debug\net8.0\infra.genruntimeconfig.cache

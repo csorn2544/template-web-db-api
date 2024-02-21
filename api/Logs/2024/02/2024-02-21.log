@@ -249,3 +249,1415 @@ FROM "PdpaConsents" AS p
 2024-02-21 08:39:21.557 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 68.6199ms
 2024-02-21 08:39:21.558 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
 2024-02-21 08:39:21.563 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 80.5777ms
+2024-02-21 11:20:47.945 +07:00 [INF] Now listening on: https://localhost:7095
+2024-02-21 11:20:47.961 +07:00 [INF] Now listening on: http://localhost:5291
+2024-02-21 11:20:47.962 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-21 11:20:47.963 +07:00 [INF] Hosting environment: Development
+2024-02-21 11:20:47.963 +07:00 [INF] Content root path: D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\api
+2024-02-21 11:20:48.249 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - null null
+2024-02-21 11:20:48.249 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-privacy-get - null null
+2024-02-21 11:20:48.249 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - null null
+2024-02-21 11:20:48.249 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-privacy-get - null null
+2024-02-21 11:20:48.249 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - null null
+2024-02-21 11:20:48.327 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:20:48.327 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:20:48.327 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:20:48.327 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:20:48.327 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:20:48.338 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - 204 null null 94.5651ms
+2024-02-21 11:20:48.338 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-privacy-get - 204 null null 94.9718ms
+2024-02-21 11:20:48.338 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - 204 null null 94.0655ms
+2024-02-21 11:20:48.338 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - 204 null null 94.7841ms
+2024-02-21 11:20:48.338 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-privacy-get - 204 null null 94.5773ms
+2024-02-21 11:20:48.346 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:20:48.346 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:20:48.346 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:20:48.346 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - application/json 62
+2024-02-21 11:20:48.346 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - application/json 62
+2024-02-21 11:20:48.354 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:20:48.354 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:20:48.354 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:20:48.354 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:20:48.354 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:20:48.359 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:20:48.359 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:20:48.359 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:20:48.359 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:20:48.360 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:20:48.380 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:20:48.380 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:20:48.380 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaPrivacy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaPrivacyDTO]]]] Get(application.Feature.PDPA.Queries.PdpaPrivacyGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaPrivacyController (api).
+2024-02-21 11:20:48.380 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaPrivacy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaPrivacyDTO]]]] Get(application.Feature.PDPA.Queries.PdpaPrivacyGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaPrivacyController (api).
+2024-02-21 11:20:48.380 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:20:48.443 +07:00 [INF] Start handling PdpaPrivacyGet 
+2024-02-21 11:20:48.445 +07:00 [INF] Start handling PdpaPrivacyGet 
+2024-02-21 11:20:48.445 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:20:48.446 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:20:48.446 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:20:48.823 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7095/swagger/index.html - null null
+2024-02-21 11:20:49.077 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7095/swagger/index.html - 200 null text/html;charset=utf-8 253.5803ms
+2024-02-21 11:20:49.161 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7095/_vs/browserLink - null null
+2024-02-21 11:20:49.164 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7095/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-21 11:20:49.172 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7095/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 10.8615ms
+2024-02-21 11:20:49.230 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7095/_vs/browserLink - 200 null text/javascript; charset=UTF-8 68.5191ms
+2024-02-21 11:20:49.347 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7095/swagger/v1/swagger.json - null null
+2024-02-21 11:20:49.463 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7095/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 116.0622ms
+2024-02-21 11:20:49.811 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-02-21 11:20:49.811 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-02-21 11:20:49.813 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-02-21 11:20:49.813 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-02-21 11:20:50.206 +07:00 [INF] Executed DbCommand (52ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."PP_Code", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaPrivacy" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:20:50.206 +07:00 [INF] Executed DbCommand (52ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:20:50.206 +07:00 [INF] Executed DbCommand (52ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:20:50.206 +07:00 [INF] Executed DbCommand (52ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:20:50.206 +07:00 [INF] Executed DbCommand (52ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."PP_Code", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaPrivacy" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:20:50.306 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:20:50.306 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaPrivacy" AS p
+2024-02-21 11:20:50.306 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:20:50.306 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaPrivacy" AS p
+2024-02-21 11:20:50.306 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:20:50.313 +07:00 [INF] Completed handling PdpaPrivacyGet - "00:00:01.8679706"
+2024-02-21 11:20:50.314 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:01.8679698"
+2024-02-21 11:20:50.314 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:01.8679685"
+2024-02-21 11:20:50.315 +07:00 [INF] Completed handling PdpaPrivacyGet - "00:00:01.8692269"
+2024-02-21 11:20:50.315 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:01.8702692"
+2024-02-21 11:20:50.322 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:20:50.322 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:20:50.322 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaPrivacyDTO, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:20:50.322 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:20:50.322 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaPrivacyDTO, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:20:50.348 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 1960.2642ms
+2024-02-21 11:20:50.348 +07:00 [INF] Executed action api.Controllers.v1.PdpaPrivacyController.Get (api) in 1960.2499ms
+2024-02-21 11:20:50.348 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 1960.2551ms
+2024-02-21 11:20:50.348 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 1960.2574ms
+2024-02-21 11:20:50.348 +07:00 [INF] Executed action api.Controllers.v1.PdpaPrivacyController.Get (api) in 1960.2558ms
+2024-02-21 11:20:50.352 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:20:50.352 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:20:50.352 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:20:50.352 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:20:50.353 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:20:50.362 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - 200 null application/json; charset=utf-8 2015.8464ms
+2024-02-21 11:20:50.362 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 2015.8465ms
+2024-02-21 11:20:50.362 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 2015.8463ms
+2024-02-21 11:20:50.362 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - 200 null application/json; charset=utf-8 2015.8465ms
+2024-02-21 11:20:50.362 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 2015.8463ms
+2024-02-21 11:20:57.483 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-delete - null null
+2024-02-21 11:20:57.485 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:20:57.487 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-delete - 204 null null 4.4344ms
+2024-02-21 11:20:57.492 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-delete - application/json 8
+2024-02-21 11:20:57.494 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:20:57.494 +07:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-02-21 11:20:57.495 +07:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-02-21 11:20:57.496 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-delete - 405 0 null 4.0547ms
+2024-02-21 11:20:57.515 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-delete - application/json 8
+2024-02-21 11:20:57.517 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:20:57.517 +07:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-02-21 11:20:57.518 +07:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-02-21 11:20:57.518 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-delete - 405 0 null 3.326ms
+2024-02-21 11:21:00.264 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - null null
+2024-02-21 11:21:00.269 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:21:00.270 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - 204 null null 5.6501ms
+2024-02-21 11:21:00.272 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:21:00.274 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:21:00.275 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:21:00.276 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:21:00.278 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:21:00.375 +07:00 [INF] Executed DbCommand (6ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:21:00.380 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:21:00.381 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.1030660"
+2024-02-21 11:21:00.384 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:21:00.385 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 107.9666ms
+2024-02-21 11:21:00.386 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:21:00.387 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 115.4445ms
+2024-02-21 11:21:07.637 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-delete - null null
+2024-02-21 11:21:07.639 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:21:07.640 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-delete - 204 null null 2.7168ms
+2024-02-21 11:21:07.642 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-delete - application/json 8
+2024-02-21 11:21:07.644 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:21:07.644 +07:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-02-21 11:21:07.645 +07:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-02-21 11:21:07.645 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-delete - 405 0 null 3.7035ms
+2024-02-21 11:21:07.663 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-delete - application/json 8
+2024-02-21 11:21:07.664 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:21:07.665 +07:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-02-21 11:21:07.665 +07:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-02-21 11:21:07.666 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-delete - 405 0 null 3.4352ms
+2024-02-21 11:22:33.945 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - null null
+2024-02-21 11:22:33.956 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:22:33.956 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - 204 null null 11.0423ms
+2024-02-21 11:22:33.958 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:22:33.959 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:22:33.960 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:22:33.961 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:22:33.969 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:22:33.975 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:22:33.981 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:22:33.984 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0153509"
+2024-02-21 11:22:33.985 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:22:33.986 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 22.0182ms
+2024-02-21 11:22:33.987 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:22:33.988 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 30.0209ms
+2024-02-21 11:22:36.568 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-delete - null null
+2024-02-21 11:22:36.569 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:22:36.570 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-delete - 204 null null 2.4276ms
+2024-02-21 11:22:36.575 +07:00 [INF] Request starting HTTP/2 DELETE https://localhost:7095/api/v1/pdpa-consent-delete - application/json null
+2024-02-21 11:22:36.577 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:22:36.577 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Delete (api)'
+2024-02-21 11:22:36.583 +07:00 [INF] Route matched with {action = "Delete", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Delete(application.Feature.PDPA.Commands.PdpaConsentDelete, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:22:36.589 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-02-21 11:22:36.599 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Delete (api) in 13.8957ms
+2024-02-21 11:22:36.600 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Delete (api)'
+2024-02-21 11:22:36.601 +07:00 [INF] Request finished HTTP/2 DELETE https://localhost:7095/api/v1/pdpa-consent-delete - 400 null application/json; charset=utf-8 26.1401ms
+2024-02-21 11:22:36.607 +07:00 [INF] Request starting HTTP/2 DELETE https://localhost:7095/api/v1/pdpa-consent-delete - application/json null
+2024-02-21 11:22:36.608 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:22:36.609 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Delete (api)'
+2024-02-21 11:22:36.609 +07:00 [INF] Route matched with {action = "Delete", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Delete(application.Feature.PDPA.Commands.PdpaConsentDelete, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:22:36.611 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-02-21 11:22:36.613 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Delete (api) in 1.7731ms
+2024-02-21 11:22:36.614 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Delete (api)'
+2024-02-21 11:22:36.615 +07:00 [INF] Request finished HTTP/2 DELETE https://localhost:7095/api/v1/pdpa-consent-delete - 400 null application/json; charset=utf-8 8.1447ms
+2024-02-21 11:23:46.895 +07:00 [INF] Now listening on: https://localhost:7095
+2024-02-21 11:23:46.919 +07:00 [INF] Now listening on: http://localhost:5291
+2024-02-21 11:23:46.923 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-21 11:23:46.924 +07:00 [INF] Hosting environment: Development
+2024-02-21 11:23:46.925 +07:00 [INF] Content root path: D:\Chanisorn Ueasomsaksakul\Documents\GitHub\template-web-db-api\api
+2024-02-21 11:23:47.184 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7095/swagger/index.html - null null
+2024-02-21 11:23:47.415 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7095/swagger/index.html - 200 null text/html;charset=utf-8 235.9009ms
+2024-02-21 11:23:47.453 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7095/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-21 11:23:47.460 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7095/_vs/browserLink - null null
+2024-02-21 11:23:47.468 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7095/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 14.466ms
+2024-02-21 11:23:47.513 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7095/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.8038ms
+2024-02-21 11:23:47.749 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7095/swagger/v1/swagger.json - null null
+2024-02-21 11:23:47.882 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7095/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 134.1914ms
+2024-02-21 11:23:56.970 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - null null
+2024-02-21 11:23:57.052 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:23:57.058 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - 204 null null 87.9747ms
+2024-02-21 11:23:57.069 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:23:57.072 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:23:57.085 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:23:57.142 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:23:57.425 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:23:58.640 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-02-21 11:23:58.643 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-02-21 11:23:59.158 +07:00 [INF] Executed DbCommand (94ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:23:59.286 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:23:59.292 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:01.8676877"
+2024-02-21 11:23:59.306 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:23:59.353 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 2200.5667ms
+2024-02-21 11:23:59.355 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:23:59.365 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 2296.1592ms
+2024-02-21 11:24:03.338 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-delete - null null
+2024-02-21 11:24:03.342 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:03.342 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-delete - 204 null null 4.6783ms
+2024-02-21 11:24:03.344 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-delete - application/json 8
+2024-02-21 11:24:03.346 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:03.346 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Delete (api)'
+2024-02-21 11:24:03.350 +07:00 [INF] Route matched with {action = "Delete", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Delete(application.Feature.PDPA.Commands.PdpaConsentDelete, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:24:03.361 +07:00 [INF] Start handling PdpaConsentDelete 
+2024-02-21 11:24:03.427 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@__request_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+WHERE p."Id" = @__request_Id_0
+LIMIT 1
+2024-02-21 11:24:03.546 +07:00 [INF] Executed DbCommand (11ms) [Parameters=[@p16='?' (DbType = Int32), @p0='?', @p1='?' (DbType = DateTime), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (DbType = DateTime), @p5='?', @p6='?', @p7='?', @p8='?' (DbType = Decimal), @p9='?' (DbType = DateTime), @p10='?' (DbType = Int64), @p11='?' (DbType = Int32), @p12='?', @p13='?', @p14='?', @p15='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "PdpaConsents" SET "Con_Code" = @p0, "CreationTime" = @p1, "CreatorUserId" = @p2, "DeleterUserId" = @p3, "DeletionTime" = @p4, "DescriptionEN" = @p5, "DescriptionTH" = @p6, "DescriptionZH" = @p7, "IsDeleted" = @p8, "LastModificationTime" = @p9, "LastModifierUserId" = @p10, "Status" = @p11, "TitleEN" = @p12, "TitleTH" = @p13, "TitleZH" = @p14, "Version" = @p15
+WHERE "Id" = @p16;
+2024-02-21 11:24:03.555 +07:00 [INF] Completed handling PdpaConsentDelete - "00:00:00.1938506"
+2024-02-21 11:24:03.556 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:03.559 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Delete (api) in 207.7053ms
+2024-02-21 11:24:03.560 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Delete (api)'
+2024-02-21 11:24:03.561 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-delete - 200 null application/json; charset=utf-8 216.4463ms
+2024-02-21 11:24:03.573 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - null null
+2024-02-21 11:24:03.574 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:03.575 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - 204 null null 1.9059ms
+2024-02-21 11:24:03.576 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:24:03.578 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:03.578 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:03.580 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:24:03.581 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:24:03.592 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:03.596 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:24:03.597 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0161434"
+2024-02-21 11:24:03.598 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:03.599 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 18.1508ms
+2024-02-21 11:24:03.599 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:03.600 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 23.7891ms
+2024-02-21 11:24:05.189 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:24:05.193 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:05.194 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:05.197 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:24:05.199 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:24:05.203 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:05.206 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:24:05.208 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0082995"
+2024-02-21 11:24:05.208 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:05.211 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 11.9812ms
+2024-02-21 11:24:05.212 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:05.213 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 24.377ms
+2024-02-21 11:24:09.883 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-privacy-get - null null
+2024-02-21 11:24:09.886 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:09.887 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-privacy-get - 204 null null 3.451ms
+2024-02-21 11:24:09.889 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - application/json 62
+2024-02-21 11:24:09.891 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:09.891 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:24:09.894 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaPrivacy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaPrivacyDTO]]]] Get(application.Feature.PDPA.Queries.PdpaPrivacyGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaPrivacyController (api).
+2024-02-21 11:24:09.903 +07:00 [INF] Start handling PdpaPrivacyGet 
+2024-02-21 11:24:09.907 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-02-21 11:24:09.908 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-02-21 11:24:09.916 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."PP_Code", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaPrivacy" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:09.924 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaPrivacy" AS p
+2024-02-21 11:24:09.925 +07:00 [INF] Completed handling PdpaPrivacyGet - "00:00:00.0219070"
+2024-02-21 11:24:09.926 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaPrivacyDTO, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:09.931 +07:00 [INF] Executed action api.Controllers.v1.PdpaPrivacyController.Get (api) in 33.0551ms
+2024-02-21 11:24:09.932 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:24:09.933 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - 200 null application/json; charset=utf-8 43.9186ms
+2024-02-21 11:24:10.474 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - null null
+2024-02-21 11:24:10.477 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:10.478 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - 204 null null 3.9127ms
+2024-02-21 11:24:10.482 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:24:10.485 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:10.486 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:10.487 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:24:10.489 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:24:10.491 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:10.495 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:24:10.497 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0086849"
+2024-02-21 11:24:10.498 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:10.499 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 10.948ms
+2024-02-21 11:24:10.500 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:10.501 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 19.4416ms
+2024-02-21 11:24:10.884 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - application/json 62
+2024-02-21 11:24:10.886 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:10.887 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:24:10.889 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaPrivacy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaPrivacyDTO]]]] Get(application.Feature.PDPA.Queries.PdpaPrivacyGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaPrivacyController (api).
+2024-02-21 11:24:10.891 +07:00 [INF] Start handling PdpaPrivacyGet 
+2024-02-21 11:24:10.895 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."PP_Code", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaPrivacy" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:10.901 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaPrivacy" AS p
+2024-02-21 11:24:10.903 +07:00 [INF] Completed handling PdpaPrivacyGet - "00:00:00.0114263"
+2024-02-21 11:24:10.904 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaPrivacyDTO, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:10.905 +07:00 [INF] Executed action api.Controllers.v1.PdpaPrivacyController.Get (api) in 13.8705ms
+2024-02-21 11:24:10.905 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:24:10.906 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - 200 null application/json; charset=utf-8 22.8195ms
+2024-02-21 11:24:11.286 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:24:11.289 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:11.290 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:11.291 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:24:11.293 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:24:11.297 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:11.300 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:24:11.301 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0082682"
+2024-02-21 11:24:11.302 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:11.303 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 10.4467ms
+2024-02-21 11:24:11.303 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:11.304 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 18.8213ms
+2024-02-21 11:24:11.729 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - application/json 62
+2024-02-21 11:24:11.734 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:11.734 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:24:11.736 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaPrivacy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaPrivacyDTO]]]] Get(application.Feature.PDPA.Queries.PdpaPrivacyGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaPrivacyController (api).
+2024-02-21 11:24:11.738 +07:00 [INF] Start handling PdpaPrivacyGet 
+2024-02-21 11:24:11.740 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."PP_Code", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaPrivacy" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:11.744 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaPrivacy" AS p
+2024-02-21 11:24:11.747 +07:00 [INF] Completed handling PdpaPrivacyGet - "00:00:00.0094406"
+2024-02-21 11:24:11.748 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaPrivacyDTO, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:11.749 +07:00 [INF] Executed action api.Controllers.v1.PdpaPrivacyController.Get (api) in 12.1986ms
+2024-02-21 11:24:11.750 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:24:11.751 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - 200 null application/json; charset=utf-8 22.317ms
+2024-02-21 11:24:12.442 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:24:12.447 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:12.448 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:12.448 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:24:12.450 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:24:12.452 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:12.456 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:24:12.457 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0073366"
+2024-02-21 11:24:12.458 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:12.459 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 9.38ms
+2024-02-21 11:24:12.460 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:12.460 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 18.5218ms
+2024-02-21 11:24:13.020 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - application/json 62
+2024-02-21 11:24:13.024 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:13.024 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:24:13.026 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaPrivacy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaPrivacyDTO]]]] Get(application.Feature.PDPA.Queries.PdpaPrivacyGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaPrivacyController (api).
+2024-02-21 11:24:13.029 +07:00 [INF] Start handling PdpaPrivacyGet 
+2024-02-21 11:24:13.032 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."PP_Code", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaPrivacy" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:13.036 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaPrivacy" AS p
+2024-02-21 11:24:13.037 +07:00 [INF] Completed handling PdpaPrivacyGet - "00:00:00.0083051"
+2024-02-21 11:24:13.038 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaPrivacyDTO, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:13.038 +07:00 [INF] Executed action api.Controllers.v1.PdpaPrivacyController.Get (api) in 10.6694ms
+2024-02-21 11:24:13.039 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:24:13.040 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - 200 null application/json; charset=utf-8 19.9114ms
+2024-02-21 11:24:14.116 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:24:14.119 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:14.120 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:14.122 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:24:14.125 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:24:14.127 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:14.132 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:24:14.134 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0094475"
+2024-02-21 11:24:14.135 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:14.136 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 11.8648ms
+2024-02-21 11:24:14.137 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:14.138 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 22.1847ms
+2024-02-21 11:24:14.586 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - application/json 62
+2024-02-21 11:24:14.588 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:14.589 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:24:14.589 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaPrivacy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaPrivacyDTO]]]] Get(application.Feature.PDPA.Queries.PdpaPrivacyGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaPrivacyController (api).
+2024-02-21 11:24:14.591 +07:00 [INF] Start handling PdpaPrivacyGet 
+2024-02-21 11:24:14.598 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."PP_Code", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaPrivacy" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:14.601 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaPrivacy" AS p
+2024-02-21 11:24:14.603 +07:00 [INF] Completed handling PdpaPrivacyGet - "00:00:00.0116727"
+2024-02-21 11:24:14.604 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaPrivacyDTO, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:14.606 +07:00 [INF] Executed action api.Controllers.v1.PdpaPrivacyController.Get (api) in 15.719ms
+2024-02-21 11:24:14.607 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:24:14.608 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - 200 null application/json; charset=utf-8 22.4513ms
+2024-02-21 11:24:15.005 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:24:15.008 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:15.009 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:15.009 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:24:15.015 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:24:15.018 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:15.021 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:24:15.023 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0076267"
+2024-02-21 11:24:15.023 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:15.024 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 10.8442ms
+2024-02-21 11:24:15.025 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:15.025 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 20.4723ms
+2024-02-21 11:24:15.503 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-privacy-get - null null
+2024-02-21 11:24:15.505 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:15.505 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-privacy-get - 204 null null 2.9468ms
+2024-02-21 11:24:15.508 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - application/json 62
+2024-02-21 11:24:15.510 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:15.511 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:24:15.513 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaPrivacy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaPrivacyDTO]]]] Get(application.Feature.PDPA.Queries.PdpaPrivacyGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaPrivacyController (api).
+2024-02-21 11:24:15.516 +07:00 [INF] Start handling PdpaPrivacyGet 
+2024-02-21 11:24:15.519 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."PP_Code", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaPrivacy" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:15.523 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaPrivacy" AS p
+2024-02-21 11:24:15.524 +07:00 [INF] Completed handling PdpaPrivacyGet - "00:00:00.0078828"
+2024-02-21 11:24:15.524 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaPrivacyDTO, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:15.525 +07:00 [INF] Executed action api.Controllers.v1.PdpaPrivacyController.Get (api) in 9.5792ms
+2024-02-21 11:24:15.526 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:24:15.526 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - 200 null application/json; charset=utf-8 18.7587ms
+2024-02-21 11:24:16.497 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - null null
+2024-02-21 11:24:16.500 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:16.501 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - 204 null null 3.4868ms
+2024-02-21 11:24:16.505 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:24:16.507 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:16.507 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:16.508 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:24:16.509 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:24:16.513 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:16.516 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:24:16.517 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0081145"
+2024-02-21 11:24:16.518 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:16.519 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 9.8715ms
+2024-02-21 11:24:16.519 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:16.520 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 15.4636ms
+2024-02-21 11:24:16.922 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - application/json 62
+2024-02-21 11:24:16.925 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:16.925 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:24:16.926 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaPrivacy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaPrivacyDTO]]]] Get(application.Feature.PDPA.Queries.PdpaPrivacyGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaPrivacyController (api).
+2024-02-21 11:24:16.929 +07:00 [INF] Start handling PdpaPrivacyGet 
+2024-02-21 11:24:16.933 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."PP_Code", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaPrivacy" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:16.935 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaPrivacy" AS p
+2024-02-21 11:24:16.936 +07:00 [INF] Completed handling PdpaPrivacyGet - "00:00:00.0074295"
+2024-02-21 11:24:16.937 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaPrivacyDTO, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:16.938 +07:00 [INF] Executed action api.Controllers.v1.PdpaPrivacyController.Get (api) in 9.7045ms
+2024-02-21 11:24:16.938 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:24:16.939 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - 200 null application/json; charset=utf-8 17.2685ms
+2024-02-21 11:24:17.514 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:24:17.517 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:17.518 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:17.519 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:24:17.521 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:24:17.524 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:17.530 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:24:17.532 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0114235"
+2024-02-21 11:24:17.533 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:17.534 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 13.7986ms
+2024-02-21 11:24:17.535 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:17.535 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 22.0702ms
+2024-02-21 11:24:17.969 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - application/json 62
+2024-02-21 11:24:17.972 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:17.972 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:24:17.974 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaPrivacy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaPrivacyDTO]]]] Get(application.Feature.PDPA.Queries.PdpaPrivacyGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaPrivacyController (api).
+2024-02-21 11:24:17.975 +07:00 [INF] Start handling PdpaPrivacyGet 
+2024-02-21 11:24:17.979 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."PP_Code", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaPrivacy" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:17.983 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaPrivacy" AS p
+2024-02-21 11:24:17.984 +07:00 [INF] Completed handling PdpaPrivacyGet - "00:00:00.0091695"
+2024-02-21 11:24:17.986 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaPrivacyDTO, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:17.987 +07:00 [INF] Executed action api.Controllers.v1.PdpaPrivacyController.Get (api) in 11.6206ms
+2024-02-21 11:24:17.987 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:24:17.988 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - 200 null application/json; charset=utf-8 18.8605ms
+2024-02-21 11:24:18.617 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:24:18.619 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:18.620 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:18.620 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:24:18.622 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:24:18.624 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:18.629 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:24:18.631 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0094171"
+2024-02-21 11:24:18.632 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:18.633 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 11.4076ms
+2024-02-21 11:24:18.633 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:18.634 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 17.3829ms
+2024-02-21 11:24:19.132 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - application/json 62
+2024-02-21 11:24:19.133 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:19.135 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:24:19.135 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaPrivacy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaPrivacyDTO]]]] Get(application.Feature.PDPA.Queries.PdpaPrivacyGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaPrivacyController (api).
+2024-02-21 11:24:19.137 +07:00 [INF] Start handling PdpaPrivacyGet 
+2024-02-21 11:24:19.140 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."PP_Code", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaPrivacy" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:19.145 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaPrivacy" AS p
+2024-02-21 11:24:19.147 +07:00 [INF] Completed handling PdpaPrivacyGet - "00:00:00.0103995"
+2024-02-21 11:24:19.149 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaPrivacyDTO, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:19.150 +07:00 [INF] Executed action api.Controllers.v1.PdpaPrivacyController.Get (api) in 13.8321ms
+2024-02-21 11:24:19.151 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:24:19.152 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - 200 null application/json; charset=utf-8 20.5193ms
+2024-02-21 11:24:19.656 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:24:19.657 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:19.658 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:19.659 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:24:19.661 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:24:19.665 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:19.668 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:24:19.669 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0075029"
+2024-02-21 11:24:19.669 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:19.670 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 10.1634ms
+2024-02-21 11:24:19.671 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:19.672 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 16.4844ms
+2024-02-21 11:24:20.162 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - application/json 62
+2024-02-21 11:24:20.166 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:20.167 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:24:20.168 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaPrivacy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaPrivacyDTO]]]] Get(application.Feature.PDPA.Queries.PdpaPrivacyGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaPrivacyController (api).
+2024-02-21 11:24:20.170 +07:00 [INF] Start handling PdpaPrivacyGet 
+2024-02-21 11:24:20.172 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."PP_Code", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaPrivacy" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:20.176 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaPrivacy" AS p
+2024-02-21 11:24:20.180 +07:00 [INF] Completed handling PdpaPrivacyGet - "00:00:00.0102313"
+2024-02-21 11:24:20.182 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaPrivacyDTO, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:20.183 +07:00 [INF] Executed action api.Controllers.v1.PdpaPrivacyController.Get (api) in 13.731ms
+2024-02-21 11:24:20.184 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:24:20.186 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - 200 null application/json; charset=utf-8 23.6008ms
+2024-02-21 11:24:21.271 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:24:21.275 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:21.276 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:21.276 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:24:21.280 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:24:21.283 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:21.287 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:24:21.288 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0086435"
+2024-02-21 11:24:21.289 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:21.290 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 11.3643ms
+2024-02-21 11:24:21.291 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:21.292 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 20.8769ms
+2024-02-21 11:24:22.004 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-privacy-get - null null
+2024-02-21 11:24:22.007 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:22.007 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-privacy-get - 204 null null 3.4712ms
+2024-02-21 11:24:22.009 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - application/json 62
+2024-02-21 11:24:22.012 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:22.013 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:24:22.014 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaPrivacy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaPrivacyDTO]]]] Get(application.Feature.PDPA.Queries.PdpaPrivacyGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaPrivacyController (api).
+2024-02-21 11:24:22.015 +07:00 [INF] Start handling PdpaPrivacyGet 
+2024-02-21 11:24:22.017 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."PP_Code", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaPrivacy" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:22.020 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaPrivacy" AS p
+2024-02-21 11:24:22.021 +07:00 [INF] Completed handling PdpaPrivacyGet - "00:00:00.0052209"
+2024-02-21 11:24:22.021 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaPrivacyDTO, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:22.022 +07:00 [INF] Executed action api.Controllers.v1.PdpaPrivacyController.Get (api) in 6.7628ms
+2024-02-21 11:24:22.022 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:24:22.023 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - 200 null application/json; charset=utf-8 14.1858ms
+2024-02-21 11:24:22.856 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - null null
+2024-02-21 11:24:22.859 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:22.859 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - 204 null null 2.8975ms
+2024-02-21 11:24:22.863 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:24:22.865 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:22.866 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:22.866 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:24:22.868 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:24:22.870 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:22.872 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:24:22.873 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0053314"
+2024-02-21 11:24:22.873 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:22.874 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 6.7689ms
+2024-02-21 11:24:22.875 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:22.875 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 13.3942ms
+2024-02-21 11:24:23.352 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - application/json 62
+2024-02-21 11:24:23.356 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:23.357 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:24:23.357 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaPrivacy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaPrivacyDTO]]]] Get(application.Feature.PDPA.Queries.PdpaPrivacyGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaPrivacyController (api).
+2024-02-21 11:24:23.358 +07:00 [INF] Start handling PdpaPrivacyGet 
+2024-02-21 11:24:23.361 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."PP_Code", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaPrivacy" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:23.365 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaPrivacy" AS p
+2024-02-21 11:24:23.366 +07:00 [INF] Completed handling PdpaPrivacyGet - "00:00:00.0074255"
+2024-02-21 11:24:23.366 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaPrivacyDTO, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:23.367 +07:00 [INF] Executed action api.Controllers.v1.PdpaPrivacyController.Get (api) in 9.0195ms
+2024-02-21 11:24:23.368 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:24:23.369 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - 200 null application/json; charset=utf-8 17.1149ms
+2024-02-21 11:24:27.350 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:24:27.353 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:27.353 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:27.354 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:24:27.355 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:24:27.358 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:27.362 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:24:27.365 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0097696"
+2024-02-21 11:24:27.366 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:27.367 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 11.5671ms
+2024-02-21 11:24:27.367 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:27.368 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 17.6963ms
+2024-02-21 11:24:29.422 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - null null
+2024-02-21 11:24:29.424 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:29.425 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - 204 null null 3.0216ms
+2024-02-21 11:24:29.428 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:24:29.431 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:29.431 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:29.432 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:24:29.433 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:24:29.435 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-02-21 11:24:29.435 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-02-21 11:24:29.439 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_0 OFFSET @__p_0
+2024-02-21 11:24:29.442 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:24:29.444 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0110056"
+2024-02-21 11:24:29.446 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:29.448 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 14.3792ms
+2024-02-21 11:24:29.448 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:29.449 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 21.2913ms
+2024-02-21 11:24:30.762 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:24:30.766 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:30.766 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:30.767 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:24:30.768 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:24:30.771 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:30.774 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:24:30.775 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0066199"
+2024-02-21 11:24:30.776 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:30.777 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 9.0268ms
+2024-02-21 11:24:30.778 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:30.779 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 16.8267ms
+2024-02-21 11:24:43.570 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-privacy-get - null null
+2024-02-21 11:24:43.573 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:43.575 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-privacy-get - 204 null null 4.7214ms
+2024-02-21 11:24:43.580 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - application/json 62
+2024-02-21 11:24:43.582 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:43.582 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:24:43.583 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaPrivacy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaPrivacyDTO]]]] Get(application.Feature.PDPA.Queries.PdpaPrivacyGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaPrivacyController (api).
+2024-02-21 11:24:43.585 +07:00 [INF] Start handling PdpaPrivacyGet 
+2024-02-21 11:24:43.587 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."PP_Code", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaPrivacy" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:43.590 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaPrivacy" AS p
+2024-02-21 11:24:43.591 +07:00 [INF] Completed handling PdpaPrivacyGet - "00:00:00.0061140"
+2024-02-21 11:24:43.591 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaPrivacyDTO, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:43.593 +07:00 [INF] Executed action api.Controllers.v1.PdpaPrivacyController.Get (api) in 9.1358ms
+2024-02-21 11:24:43.594 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:24:43.596 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - 200 null application/json; charset=utf-8 15.414ms
+2024-02-21 11:24:44.206 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - null null
+2024-02-21 11:24:44.209 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:44.210 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - 204 null null 4.3164ms
+2024-02-21 11:24:44.214 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:24:44.216 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:44.217 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:44.217 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:24:44.219 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:24:44.221 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:44.223 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:24:44.224 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0049625"
+2024-02-21 11:24:44.225 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:44.226 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 6.9285ms
+2024-02-21 11:24:44.227 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:44.228 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 14.6335ms
+2024-02-21 11:24:45.739 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - application/json 62
+2024-02-21 11:24:45.740 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:45.741 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:24:45.741 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaPrivacy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaPrivacyDTO]]]] Get(application.Feature.PDPA.Queries.PdpaPrivacyGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaPrivacyController (api).
+2024-02-21 11:24:45.743 +07:00 [INF] Start handling PdpaPrivacyGet 
+2024-02-21 11:24:45.747 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."PP_Code", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaPrivacy" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:45.750 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaPrivacy" AS p
+2024-02-21 11:24:45.751 +07:00 [INF] Completed handling PdpaPrivacyGet - "00:00:00.0078904"
+2024-02-21 11:24:45.752 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaPrivacyDTO, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:45.753 +07:00 [INF] Executed action api.Controllers.v1.PdpaPrivacyController.Get (api) in 10.008ms
+2024-02-21 11:24:45.753 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:24:45.754 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - 200 null application/json; charset=utf-8 15.3891ms
+2024-02-21 11:24:51.632 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - null null
+2024-02-21 11:24:51.635 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:51.635 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - 204 null null 3.169ms
+2024-02-21 11:24:51.638 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:24:51.640 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:24:51.640 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:51.641 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:24:51.642 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:24:51.645 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:24:51.648 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:24:51.649 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0067681"
+2024-02-21 11:24:51.649 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:24:51.650 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 8.287ms
+2024-02-21 11:24:51.650 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:24:51.651 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 13.4013ms
+2024-02-21 11:25:09.019 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - null null
+2024-02-21 11:25:09.021 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:25:09.022 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - 204 null null 3.1731ms
+2024-02-21 11:25:09.024 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:25:09.026 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:25:09.026 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:25:09.028 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:25:09.029 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:25:09.030 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_0 OFFSET @__p_0
+2024-02-21 11:25:09.033 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:25:09.035 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0058738"
+2024-02-21 11:25:09.035 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:25:09.036 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 7.3144ms
+2024-02-21 11:25:09.037 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:25:09.037 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 13.1742ms
+2024-02-21 11:25:11.010 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:25:11.014 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:25:11.014 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:25:11.015 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:25:11.016 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:25:11.017 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:25:11.020 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:25:11.020 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0046615"
+2024-02-21 11:25:11.021 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:25:11.022 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 5.9988ms
+2024-02-21 11:25:11.022 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:25:11.023 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 13.62ms
+2024-02-21 11:25:13.451 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:25:13.453 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:25:13.453 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:25:13.454 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:25:13.455 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:25:13.457 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_0 OFFSET @__p_0
+2024-02-21 11:25:13.462 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:25:13.463 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0081424"
+2024-02-21 11:25:13.464 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:25:13.464 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 9.614ms
+2024-02-21 11:25:13.465 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:25:13.465 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 14.7637ms
+2024-02-21 11:25:21.380 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-privacy-get - null null
+2024-02-21 11:25:21.382 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:25:21.383 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-privacy-get - 204 null null 3.609ms
+2024-02-21 11:25:21.386 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - application/json 62
+2024-02-21 11:25:21.387 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:25:21.388 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:25:21.388 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaPrivacy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaPrivacyDTO]]]] Get(application.Feature.PDPA.Queries.PdpaPrivacyGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaPrivacyController (api).
+2024-02-21 11:25:21.389 +07:00 [INF] Start handling PdpaPrivacyGet 
+2024-02-21 11:25:21.392 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."PP_Code", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaPrivacy" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:25:21.395 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaPrivacy" AS p
+2024-02-21 11:25:21.396 +07:00 [INF] Completed handling PdpaPrivacyGet - "00:00:00.0064570"
+2024-02-21 11:25:21.396 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaPrivacyDTO, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:25:21.397 +07:00 [INF] Executed action api.Controllers.v1.PdpaPrivacyController.Get (api) in 7.8591ms
+2024-02-21 11:25:21.398 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:25:21.398 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - 200 null application/json; charset=utf-8 11.9946ms
+2024-02-21 11:25:22.591 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - null null
+2024-02-21 11:25:22.595 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:25:22.595 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - 204 null null 4.3115ms
+2024-02-21 11:25:22.599 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:25:22.600 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:25:22.600 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:25:22.601 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:25:22.602 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:25:22.604 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:25:22.606 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:25:22.607 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0047071"
+2024-02-21 11:25:22.609 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:25:22.610 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 8.0137ms
+2024-02-21 11:25:22.611 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:25:22.611 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 12.654ms
+2024-02-21 11:25:26.197 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-delete - null null
+2024-02-21 11:25:26.199 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:25:26.199 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-delete - 204 null null 2.9345ms
+2024-02-21 11:25:26.201 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-delete - application/json 8
+2024-02-21 11:25:26.202 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:25:26.203 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Delete (api)'
+2024-02-21 11:25:26.203 +07:00 [INF] Route matched with {action = "Delete", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Delete(application.Feature.PDPA.Commands.PdpaConsentDelete, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:25:26.204 +07:00 [INF] Start handling PdpaConsentDelete 
+2024-02-21 11:25:26.206 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+WHERE p."Id" = @__request_Id_0
+LIMIT 1
+2024-02-21 11:25:26.211 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@p16='?' (DbType = Int32), @p0='?', @p1='?' (DbType = DateTime), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (DbType = DateTime), @p5='?', @p6='?', @p7='?', @p8='?' (DbType = Decimal), @p9='?' (DbType = DateTime), @p10='?' (DbType = Int64), @p11='?' (DbType = Int32), @p12='?', @p13='?', @p14='?', @p15='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "PdpaConsents" SET "Con_Code" = @p0, "CreationTime" = @p1, "CreatorUserId" = @p2, "DeleterUserId" = @p3, "DeletionTime" = @p4, "DescriptionEN" = @p5, "DescriptionTH" = @p6, "DescriptionZH" = @p7, "IsDeleted" = @p8, "LastModificationTime" = @p9, "LastModifierUserId" = @p10, "Status" = @p11, "TitleEN" = @p12, "TitleTH" = @p13, "TitleZH" = @p14, "Version" = @p15
+WHERE "Id" = @p16;
+2024-02-21 11:25:26.213 +07:00 [INF] Completed handling PdpaConsentDelete - "00:00:00.0082069"
+2024-02-21 11:25:26.213 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:25:26.214 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Delete (api) in 9.8049ms
+2024-02-21 11:25:26.214 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Delete (api)'
+2024-02-21 11:25:26.215 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-delete - 200 null application/json; charset=utf-8 13.9669ms
+2024-02-21 11:25:26.227 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:25:26.228 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:25:26.228 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:25:26.229 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:25:26.230 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:25:26.232 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:25:26.235 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:25:26.236 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0056322"
+2024-02-21 11:25:26.237 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:25:26.237 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 7.3315ms
+2024-02-21 11:25:26.238 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:25:26.239 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 12.3499ms
+2024-02-21 11:25:27.922 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - null null
+2024-02-21 11:25:27.924 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:25:27.925 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - 204 null null 3.0759ms
+2024-02-21 11:25:27.928 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:25:27.929 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:25:27.929 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:25:27.930 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:25:27.931 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:25:27.932 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_0 OFFSET @__p_0
+2024-02-21 11:25:27.935 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:25:27.936 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0055993"
+2024-02-21 11:25:27.937 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:25:27.937 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 7.0123ms
+2024-02-21 11:25:27.938 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:25:27.939 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 11.1041ms
+2024-02-21 11:25:29.692 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:25:29.697 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:25:29.697 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:25:29.698 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:25:29.699 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:25:29.700 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:25:29.703 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:25:29.704 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0051476"
+2024-02-21 11:25:29.704 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:25:29.705 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 6.4442ms
+2024-02-21 11:25:29.706 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:25:29.706 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 14.3083ms
+2024-02-21 11:25:31.245 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:25:31.247 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:25:31.247 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:25:31.248 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:25:31.249 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:25:31.258 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:25:31.262 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:25:31.263 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0139932"
+2024-02-21 11:25:31.264 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:25:31.265 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 15.88ms
+2024-02-21 11:25:31.265 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:25:31.266 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 20.8468ms
+2024-02-21 11:25:45.595 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-privacy-get - null null
+2024-02-21 11:25:45.598 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:25:45.599 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-privacy-get - 204 null null 4.3919ms
+2024-02-21 11:25:45.603 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - application/json 62
+2024-02-21 11:25:45.605 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:25:45.605 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:25:45.605 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaPrivacy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaPrivacyDTO]]]] Get(application.Feature.PDPA.Queries.PdpaPrivacyGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaPrivacyController (api).
+2024-02-21 11:25:45.607 +07:00 [INF] Start handling PdpaPrivacyGet 
+2024-02-21 11:25:45.610 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."PP_Code", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaPrivacy" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:25:45.613 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaPrivacy" AS p
+2024-02-21 11:25:45.614 +07:00 [INF] Completed handling PdpaPrivacyGet - "00:00:00.0068323"
+2024-02-21 11:25:45.614 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaPrivacyDTO, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:25:45.615 +07:00 [INF] Executed action api.Controllers.v1.PdpaPrivacyController.Get (api) in 8.369ms
+2024-02-21 11:25:45.616 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:25:45.616 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - 200 null application/json; charset=utf-8 13.8702ms
+2024-02-21 11:25:46.838 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - null null
+2024-02-21 11:25:46.842 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:25:46.844 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - 204 null null 5.8873ms
+2024-02-21 11:25:46.846 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:25:46.847 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:25:46.847 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:25:46.848 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:25:46.849 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:25:46.851 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:25:46.853 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:25:46.854 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0047735"
+2024-02-21 11:25:46.854 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:25:46.855 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 6.0953ms
+2024-02-21 11:25:46.856 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:25:46.858 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 12.3793ms
+2024-02-21 11:25:47.547 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - application/json 62
+2024-02-21 11:25:47.550 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:25:47.551 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:25:47.551 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaPrivacy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaPrivacyDTO]]]] Get(application.Feature.PDPA.Queries.PdpaPrivacyGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaPrivacyController (api).
+2024-02-21 11:25:47.553 +07:00 [INF] Start handling PdpaPrivacyGet 
+2024-02-21 11:25:47.555 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."PP_Code", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaPrivacy" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:25:47.559 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaPrivacy" AS p
+2024-02-21 11:25:47.560 +07:00 [INF] Completed handling PdpaPrivacyGet - "00:00:00.0071348"
+2024-02-21 11:25:47.561 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaPrivacyDTO, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:25:47.561 +07:00 [INF] Executed action api.Controllers.v1.PdpaPrivacyController.Get (api) in 8.5685ms
+2024-02-21 11:25:47.562 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:25:47.562 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - 200 null application/json; charset=utf-8 15.8214ms
+2024-02-21 11:25:48.359 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:25:48.361 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:25:48.362 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:25:48.363 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:25:48.364 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:25:48.367 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:25:48.370 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:25:48.372 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0070447"
+2024-02-21 11:25:48.375 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:25:48.378 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 14.1715ms
+2024-02-21 11:25:48.380 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:25:48.381 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 22.4465ms
+2024-02-21 11:25:48.971 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - application/json 62
+2024-02-21 11:25:48.974 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:25:48.975 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:25:48.976 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaPrivacy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaPrivacyDTO]]]] Get(application.Feature.PDPA.Queries.PdpaPrivacyGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaPrivacyController (api).
+2024-02-21 11:25:48.979 +07:00 [INF] Start handling PdpaPrivacyGet 
+2024-02-21 11:25:48.981 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."PP_Code", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaPrivacy" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:25:48.984 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaPrivacy" AS p
+2024-02-21 11:25:48.985 +07:00 [INF] Completed handling PdpaPrivacyGet - "00:00:00.0063955"
+2024-02-21 11:25:48.986 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaPrivacyDTO, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:25:48.987 +07:00 [INF] Executed action api.Controllers.v1.PdpaPrivacyController.Get (api) in 9.0302ms
+2024-02-21 11:25:48.988 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:25:48.988 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - 200 null application/json; charset=utf-8 17.6039ms
+2024-02-21 11:25:49.485 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:25:49.487 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:25:49.488 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:25:49.488 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:25:49.491 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:25:49.494 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:25:49.497 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:25:49.499 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0074621"
+2024-02-21 11:25:49.499 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:25:49.500 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 9.5562ms
+2024-02-21 11:25:49.501 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:25:49.502 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 17.4185ms
+2024-02-21 11:25:50.380 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - application/json 62
+2024-02-21 11:25:50.383 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:25:50.383 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:25:50.384 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaPrivacy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaPrivacyDTO]]]] Get(application.Feature.PDPA.Queries.PdpaPrivacyGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaPrivacyController (api).
+2024-02-21 11:25:50.386 +07:00 [INF] Start handling PdpaPrivacyGet 
+2024-02-21 11:25:50.388 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."PP_Code", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaPrivacy" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:25:50.392 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaPrivacy" AS p
+2024-02-21 11:25:50.394 +07:00 [INF] Completed handling PdpaPrivacyGet - "00:00:00.0081420"
+2024-02-21 11:25:50.394 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaPrivacyDTO, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:25:50.395 +07:00 [INF] Executed action api.Controllers.v1.PdpaPrivacyController.Get (api) in 9.9025ms
+2024-02-21 11:25:50.396 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:25:50.397 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - 200 null application/json; charset=utf-8 17.0159ms
+2024-02-21 11:25:51.121 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:25:51.126 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:25:51.126 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:25:51.127 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:25:51.129 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:25:51.131 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:25:51.133 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:25:51.134 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0058092"
+2024-02-21 11:25:51.135 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:25:51.136 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 7.8401ms
+2024-02-21 11:25:51.137 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:25:51.137 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 17.0638ms
+2024-02-21 11:25:51.749 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-privacy-get - null null
+2024-02-21 11:25:51.751 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:25:51.752 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-privacy-get - 204 null null 3.0986ms
+2024-02-21 11:25:51.755 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - application/json 62
+2024-02-21 11:25:51.757 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:25:51.759 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:25:51.760 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaPrivacy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaPrivacyDTO]]]] Get(application.Feature.PDPA.Queries.PdpaPrivacyGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaPrivacyController (api).
+2024-02-21 11:25:51.762 +07:00 [INF] Start handling PdpaPrivacyGet 
+2024-02-21 11:25:51.763 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."PP_Code", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaPrivacy" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:25:51.766 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaPrivacy" AS p
+2024-02-21 11:25:51.767 +07:00 [INF] Completed handling PdpaPrivacyGet - "00:00:00.0048145"
+2024-02-21 11:25:51.767 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaPrivacyDTO, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:25:51.768 +07:00 [INF] Executed action api.Controllers.v1.PdpaPrivacyController.Get (api) in 6.1579ms
+2024-02-21 11:25:51.768 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:25:51.769 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - 200 null application/json; charset=utf-8 14.1359ms
+2024-02-21 11:26:11.907 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-privacy-get - null null
+2024-02-21 11:26:11.915 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:26:11.916 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-privacy-get - 204 null null 9.2511ms
+2024-02-21 11:26:11.923 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - application/json 62
+2024-02-21 11:26:11.926 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:26:11.926 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:26:11.927 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaPrivacy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaPrivacyDTO]]]] Get(application.Feature.PDPA.Queries.PdpaPrivacyGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaPrivacyController (api).
+2024-02-21 11:26:11.929 +07:00 [INF] Start handling PdpaPrivacyGet 
+2024-02-21 11:26:11.931 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."PP_Code", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaPrivacy" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:26:11.937 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaPrivacy" AS p
+2024-02-21 11:26:11.938 +07:00 [INF] Completed handling PdpaPrivacyGet - "00:00:00.0097345"
+2024-02-21 11:26:11.940 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaPrivacyDTO, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:26:11.941 +07:00 [INF] Executed action api.Controllers.v1.PdpaPrivacyController.Get (api) in 12.2962ms
+2024-02-21 11:26:11.941 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:26:11.942 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - 200 null application/json; charset=utf-8 18.7008ms
+2024-02-21 11:28:34.136 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-privacy-get - null null
+2024-02-21 11:28:34.146 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:28:34.146 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-privacy-get - 204 null null 10.8547ms
+2024-02-21 11:28:34.150 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - application/json 62
+2024-02-21 11:28:34.152 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:28:34.153 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:28:34.154 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaPrivacy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaPrivacyDTO]]]] Get(application.Feature.PDPA.Queries.PdpaPrivacyGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaPrivacyController (api).
+2024-02-21 11:28:34.155 +07:00 [INF] Start handling PdpaPrivacyGet 
+2024-02-21 11:28:34.158 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."PP_Code", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaPrivacy" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:28:34.164 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaPrivacy" AS p
+2024-02-21 11:28:34.166 +07:00 [INF] Completed handling PdpaPrivacyGet - "00:00:00.0114777"
+2024-02-21 11:28:34.167 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaPrivacyDTO, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:28:34.169 +07:00 [INF] Executed action api.Controllers.v1.PdpaPrivacyController.Get (api) in 14.4698ms
+2024-02-21 11:28:34.170 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:28:34.171 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - 200 null application/json; charset=utf-8 20.5718ms
+2024-02-21 11:29:08.036 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - null null
+2024-02-21 11:29:08.038 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:29:08.039 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - 204 null null 2.8515ms
+2024-02-21 11:29:08.042 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:29:08.044 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:29:08.044 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:29:08.045 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:29:08.048 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:29:08.110 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:29:08.114 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:29:08.116 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0677262"
+2024-02-21 11:29:08.116 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:29:08.117 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 70.5289ms
+2024-02-21 11:29:08.118 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:29:08.119 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 77.0065ms
+2024-02-21 11:29:11.305 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-privacy-get - null null
+2024-02-21 11:29:11.307 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:29:11.308 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-privacy-get - 204 null null 3.4338ms
+2024-02-21 11:29:11.315 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - application/json 62
+2024-02-21 11:29:11.318 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:29:11.319 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:29:11.320 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaPrivacy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaPrivacyDTO]]]] Get(application.Feature.PDPA.Queries.PdpaPrivacyGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaPrivacyController (api).
+2024-02-21 11:29:11.321 +07:00 [INF] Start handling PdpaPrivacyGet 
+2024-02-21 11:29:11.324 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."PP_Code", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaPrivacy" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:29:11.327 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaPrivacy" AS p
+2024-02-21 11:29:11.328 +07:00 [INF] Completed handling PdpaPrivacyGet - "00:00:00.0067266"
+2024-02-21 11:29:11.330 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaPrivacyDTO, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:29:11.332 +07:00 [INF] Executed action api.Controllers.v1.PdpaPrivacyController.Get (api) in 10.4089ms
+2024-02-21 11:29:11.332 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:29:11.333 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - 200 null application/json; charset=utf-8 19.9953ms
+2024-02-21 11:29:11.951 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:29:11.954 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:29:11.955 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:29:11.956 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:29:11.958 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:29:11.961 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:29:11.967 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:29:11.969 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0106610"
+2024-02-21 11:29:11.970 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:29:11.972 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 14.334ms
+2024-02-21 11:29:11.973 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:29:11.975 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 24.4298ms
+2024-02-21 11:29:12.854 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - application/json 62
+2024-02-21 11:29:12.857 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:29:12.858 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:29:12.858 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaPrivacy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaPrivacyDTO]]]] Get(application.Feature.PDPA.Queries.PdpaPrivacyGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaPrivacyController (api).
+2024-02-21 11:29:12.860 +07:00 [INF] Start handling PdpaPrivacyGet 
+2024-02-21 11:29:12.865 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."PP_Code", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaPrivacy" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:29:12.870 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaPrivacy" AS p
+2024-02-21 11:29:12.871 +07:00 [INF] Completed handling PdpaPrivacyGet - "00:00:00.0109005"
+2024-02-21 11:29:12.872 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaPrivacyDTO, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:29:12.873 +07:00 [INF] Executed action api.Controllers.v1.PdpaPrivacyController.Get (api) in 12.9982ms
+2024-02-21 11:29:12.874 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:29:12.875 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - 200 null application/json; charset=utf-8 20.4211ms
+2024-02-21 11:29:13.633 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - null null
+2024-02-21 11:29:13.637 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:29:13.641 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - 204 null null 8.0198ms
+2024-02-21 11:29:13.646 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:29:13.650 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:29:13.651 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:29:13.652 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:29:13.655 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:29:13.658 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:29:13.665 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:29:13.668 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0124616"
+2024-02-21 11:29:13.669 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:29:13.671 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 16.0498ms
+2024-02-21 11:29:13.673 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:29:13.674 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 28.1449ms
+2024-02-21 11:37:04.950 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 78
+2024-02-21 11:37:04.958 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:37:04.958 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:37:04.959 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:37:04.961 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:37:05.011 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:37:05.014 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:37:05.016 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0548747"
+2024-02-21 11:37:05.016 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:37:05.017 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 56.9151ms
+2024-02-21 11:37:05.018 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:37:05.019 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 68.7852ms
+2024-02-21 11:37:57.610 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - null null
+2024-02-21 11:37:57.615 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:37:57.616 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-consent-get - 204 null null 6.5162ms
+2024-02-21 11:37:57.619 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:37:57.620 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:37:57.621 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:37:57.622 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:37:57.623 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:37:57.625 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:37:57.632 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:37:57.635 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0113457"
+2024-02-21 11:37:57.636 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:37:57.638 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 15.3563ms
+2024-02-21 11:37:57.645 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:37:57.646 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 27.077ms
+2024-02-21 11:37:58.406 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-privacy-get - null null
+2024-02-21 11:37:58.412 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:37:58.412 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/v1/pdpa-privacy-get - 204 null null 6.2587ms
+2024-02-21 11:37:58.415 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - application/json 62
+2024-02-21 11:37:58.417 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:37:58.423 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:37:58.425 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaPrivacy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaPrivacyDTO]]]] Get(application.Feature.PDPA.Queries.PdpaPrivacyGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaPrivacyController (api).
+2024-02-21 11:37:58.429 +07:00 [INF] Start handling PdpaPrivacyGet 
+2024-02-21 11:37:58.437 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."PP_Code", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaPrivacy" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:37:58.444 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaPrivacy" AS p
+2024-02-21 11:37:58.447 +07:00 [INF] Completed handling PdpaPrivacyGet - "00:00:00.0175615"
+2024-02-21 11:37:58.448 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaPrivacyDTO, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:37:58.453 +07:00 [INF] Executed action api.Controllers.v1.PdpaPrivacyController.Get (api) in 24.0009ms
+2024-02-21 11:37:58.455 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:37:58.458 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - 200 null application/json; charset=utf-8 43.4589ms
+2024-02-21 11:37:59.698 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - application/json 62
+2024-02-21 11:37:59.700 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:37:59.701 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:37:59.703 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaConsent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaConsentDto]]]] Get(application.Feature.PDPA.Queries.PdpaConsentGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaConsentController (api).
+2024-02-21 11:37:59.706 +07:00 [INF] Start handling PdpaConsentGet 
+2024-02-21 11:37:59.708 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Con_Code", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaConsents" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:37:59.711 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaConsents" AS p
+2024-02-21 11:37:59.712 +07:00 [INF] Completed handling PdpaConsentGet - "00:00:00.0056486"
+2024-02-21 11:37:59.713 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaConsentDto, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:37:59.714 +07:00 [INF] Executed action api.Controllers.v1.PdpaConsentController.Get (api) in 7.5663ms
+2024-02-21 11:37:59.714 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaConsentController.Get (api)'
+2024-02-21 11:37:59.718 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-consent-get - 200 null application/json; charset=utf-8 20.8666ms
+2024-02-21 11:38:00.234 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - application/json 62
+2024-02-21 11:38:00.238 +07:00 [INF] CORS policy execution successful.
+2024-02-21 11:38:00.240 +07:00 [INF] Executing endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:38:00.242 +07:00 [INF] Route matched with {action = "Get", controller = "PdpaPrivacy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[domain.Common.DTO.ResultResponse`1[System.Collections.Generic.List`1[application.Feature.PDPA.DTO.PdpaPrivacyDTO]]]] Get(application.Feature.PDPA.Queries.PdpaPrivacyGet, System.Threading.CancellationToken) on controller api.Controllers.v1.PdpaPrivacyController (api).
+2024-02-21 11:38:00.246 +07:00 [INF] Start handling PdpaPrivacyGet 
+2024-02-21 11:38:00.247 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreationTime", p."CreatorUserId", p."DeleterUserId", p."DeletionTime", p."DescriptionEN", p."DescriptionTH", p."DescriptionZH", p."IsDeleted", p."LastModificationTime", p."LastModifierUserId", p."PP_Code", p."Status", p."TitleEN", p."TitleTH", p."TitleZH", p."Version"
+FROM "PdpaPrivacy" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-21 11:38:00.250 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PdpaPrivacy" AS p
+2024-02-21 11:38:00.251 +07:00 [INF] Completed handling PdpaPrivacyGet - "00:00:00.0056071"
+2024-02-21 11:38:00.252 +07:00 [INF] Executing OkObjectResult, writing value of type 'domain.Common.DTO.ResultResponse`1[[System.Collections.Generic.List`1[[application.Feature.PDPA.DTO.PdpaPrivacyDTO, application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-21 11:38:00.254 +07:00 [INF] Executed action api.Controllers.v1.PdpaPrivacyController.Get (api) in 8.5406ms
+2024-02-21 11:38:00.255 +07:00 [INF] Executed endpoint 'api.Controllers.v1.PdpaPrivacyController.Get (api)'
+2024-02-21 11:38:00.256 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/v1/pdpa-privacy-get - 200 null application/json; charset=utf-8 21.7844ms

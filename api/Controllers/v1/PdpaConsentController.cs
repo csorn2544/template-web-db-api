@@ -64,7 +64,7 @@ namespace api.Controllers.v1
         /// <param name="Delete">PdpaConsentDelete</param>
         /// <param name="cancellationToken">CancellationToken</param>
         /// <returns>Return</returns>
-        [HttpDelete("pdpa-consent-delete")]
+        [HttpPost("pdpa-consent-delete")]
         public async Task<ActionResult<ResultResponse<List<PdpaConsentDto>>>> Delete([FromBody] PdpaConsentDelete Delete, CancellationToken cancellationToken = default)
         {
             return Ok(await _mediator.Send(Delete, cancellationToken));

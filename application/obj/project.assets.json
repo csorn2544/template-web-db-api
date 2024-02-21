@@ -1684,19 +1684,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pimmada\\.nuget\\packages\\": {}
+    "C:\\Users\\chanisorn\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Pimmada Khumdinpithak\\Documents\\GitHub\\template-web-db-api\\application\\application.csproj",
+      "projectUniqueName": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\application\\application.csproj",
       "projectName": "application",
-      "projectPath": "D:\\Pimmada Khumdinpithak\\Documents\\GitHub\\template-web-db-api\\application\\application.csproj",
-      "packagesPath": "C:\\Users\\pimmada\\.nuget\\packages\\",
-      "outputPath": "D:\\Pimmada Khumdinpithak\\Documents\\GitHub\\template-web-db-api\\application\\obj\\",
+      "projectPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\application\\application.csproj",
+      "packagesPath": "C:\\Users\\chanisorn\\.nuget\\packages\\",
+      "outputPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\pimmada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\chanisorn\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1710,8 +1710,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Pimmada Khumdinpithak\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj": {
-              "projectPath": "D:\\Pimmada Khumdinpithak\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj"
+            "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj": {
+              "projectPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj"
             }
           }
         }

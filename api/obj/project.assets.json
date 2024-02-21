@@ -9689,19 +9689,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pimmada\\.nuget\\packages\\": {}
+    "C:\\Users\\chanisorn\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Pimmada Khumdinpithak\\Documents\\GitHub\\template-web-db-api\\api\\api.csproj",
+      "projectUniqueName": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\api\\api.csproj",
       "projectName": "api",
-      "projectPath": "D:\\Pimmada Khumdinpithak\\Documents\\GitHub\\template-web-db-api\\api\\api.csproj",
-      "packagesPath": "C:\\Users\\pimmada\\.nuget\\packages\\",
-      "outputPath": "D:\\Pimmada Khumdinpithak\\Documents\\GitHub\\template-web-db-api\\api\\obj\\",
+      "projectPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\api\\api.csproj",
+      "packagesPath": "C:\\Users\\chanisorn\\.nuget\\packages\\",
+      "outputPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\pimmada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\chanisorn\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9715,8 +9715,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Pimmada Khumdinpithak\\Documents\\GitHub\\template-web-db-api\\infra\\infra.csproj": {
-              "projectPath": "D:\\Pimmada Khumdinpithak\\Documents\\GitHub\\template-web-db-api\\infra\\infra.csproj"
+            "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\infra\\infra.csproj": {
+              "projectPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\infra\\infra.csproj"
             }
           }
         }

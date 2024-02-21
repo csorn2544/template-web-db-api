@@ -67,7 +67,7 @@ public class PdpaPrivacyController : ApiControllerBase
     /// <param name="Delete">PdpaPrivacyDelete</param>
     /// <param name="cancellationToken">CancellationToken</param>
     /// <remarks>Return</remarks>
-    [HttpDelete("pdpa-privacy-delete")]
+    [HttpPost("pdpa-privacy-delete")]
     public async Task<ActionResult<ResultResponse<List<PdpaPrivacyDTO>>>> Delete([FromBody] PdpaPrivacyDelete Delete,CancellationToken cancellationToken = default)
     {
         return Ok(await _mediator.Send(Delete, cancellationToken));
