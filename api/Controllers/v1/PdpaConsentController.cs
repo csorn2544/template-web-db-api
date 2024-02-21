@@ -52,7 +52,7 @@ namespace api.Controllers.v1
         /// <param name="Update">PdpaConsentCreate</param>
         /// <param name="cancellationToken">CancellationToken</param>
         /// <returns>Return</returns>
-        [HttpPost("pdpa-consent-Update")]
+        [HttpPost("pdpa-consent-update")]
         public async Task<ActionResult<ResultResponse<List<PdpaConsentDto>>>> Update([FromBody] PdpaConsentUpdate Update, CancellationToken cancellationToken = default)
         {
             return Ok(await _mediator.Send(Update, cancellationToken));
@@ -64,7 +64,7 @@ namespace api.Controllers.v1
         /// <param name="Delete">PdpaConsentDelete</param>
         /// <param name="cancellationToken">CancellationToken</param>
         /// <returns>Return</returns>
-        [HttpDelete("pdpa-consent-Delete")]
+        [HttpDelete("pdpa-consent-delete")]
         public async Task<ActionResult<ResultResponse<List<PdpaConsentDto>>>> Delete([FromBody] PdpaConsentDelete Delete, CancellationToken cancellationToken = default)
         {
             return Ok(await _mediator.Send(Delete, cancellationToken));
