@@ -37,6 +37,6 @@ public sealed class PdpaPrivacyPolicyGetHandler(IMapper mapper, IPdpaPrivacyRepo
         var item = await _repository.GetAsync(filter, request.PageNumber, request.PageSize, cancellationToken);
         var ds = _mapper.Map<List<PdpaPrivacyDTO>>(item);
         int TotalItems = _repository.GetAsync(filter).Count();
-        return new(ds, request.PageNumber, request.PageSize, TotalItems, nameof(PdpaConsentGet));
+        return new(ds, request.PageNumber, request.PageSize, TotalItems, nameof(PdpaPrivacyGet));
     }
 }
