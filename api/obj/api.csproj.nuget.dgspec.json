@@ -46,11 +46,15 @@
           "dependencies": {
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
               "target": "Package",
               "version": "[5.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -126,7 +130,7 @@
             },
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             },
             "Dapper": {
               "target": "Package",
@@ -138,11 +142,11 @@
             },
             "MediatR.Extensions.Autofac.DependencyInjection": {
               "target": "Package",
-              "version": "[11.3.0, )"
+              "version": "[12.0.0, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.1, )"
             }
           },
           "imports": [
@@ -269,7 +273,7 @@
             },
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             },
             "Azure.Storage.Blobs": {
               "target": "Package",
@@ -277,7 +281,7 @@
             },
             "ClosedXML": {
               "target": "Package",
-              "version": "[0.102.1, )"
+              "version": "[0.102.2, )"
             },
             "ExcelDataReader": {
               "target": "Package",
@@ -293,7 +297,7 @@
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.2, )"
             },
             "Microsoft.Bcl.AsyncInterfaces": {
               "target": "Package",
@@ -301,35 +305,28 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.2, )"
             },
             "Microsoft.Extensions.Diagnostics.HealthChecks": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.2, )"
             },
             "Microsoft.Extensions.Http": {
               "target": "Package",
               "version": "[8.0.0, )"
             },
-            "Npgsql": {
-              "target": "Package",
-              "version": "[8.0.1, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[8.0.0-beta.2, )"
+              "version": "[8.0.1, )"
             },
             "RestSharp": {
               "target": "Package",

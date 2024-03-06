@@ -9,37 +9,37 @@
       "application/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
-          "Autofac.Extensions.DependencyInjection": "8.0.0",
+          "Autofac.Extensions.DependencyInjection": "9.0.0",
           "Dapper": "2.1.28",
           "FluentValidation.DependencyInjectionExtensions": "11.9.0",
-          "MediatR.Extensions.Autofac.DependencyInjection": "11.3.0",
-          "Serilog.AspNetCore": "8.0.0",
+          "MediatR.Extensions.Autofac.DependencyInjection": "12.0.0",
+          "Serilog.AspNetCore": "8.0.1",
           "domain": "1.0.0"
         },
         "runtime": {
           "application.dll": {}
         }
       },
-      "Autofac/7.1.0": {
+      "Autofac/8.0.0": {
         "dependencies": {
           "System.Diagnostics.DiagnosticSource": "8.0.0"
         },
         "runtime": {
-          "lib/net7.0/Autofac.dll": {
-            "assemblyVersion": "7.1.0.0",
-            "fileVersion": "7.1.0.0"
+          "lib/net8.0/Autofac.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
           }
         }
       },
-      "Autofac.Extensions.DependencyInjection/8.0.0": {
+      "Autofac.Extensions.DependencyInjection/9.0.0": {
         "dependencies": {
-          "Autofac": "7.1.0",
+          "Autofac": "8.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
         },
         "runtime": {
-          "lib/net6.0/Autofac.Extensions.DependencyInjection.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.0.0"
+          "lib/net8.0/Autofac.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
           }
         }
       },
@@ -114,15 +114,15 @@
           }
         }
       },
-      "MediatR.Extensions.Autofac.DependencyInjection/11.3.0": {
+      "MediatR.Extensions.Autofac.DependencyInjection/12.0.0": {
         "dependencies": {
-          "Autofac": "7.1.0",
+          "Autofac": "8.0.0",
           "MediatR": "12.2.0"
         },
         "runtime": {
           "lib/netstandard2.0/MediatR.Extensions.Autofac.DependencyInjection.dll": {
-            "assemblyVersion": "11.3.0.0",
-            "fileVersion": "11.3.0.0"
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.0.0"
           }
         }
       },
@@ -203,7 +203,7 @@
           }
         }
       },
-      "Serilog.AspNetCore/8.0.0": {
+      "Serilog.AspNetCore/8.0.1": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
           "Microsoft.Extensions.Logging": "8.0.0",
@@ -218,8 +218,8 @@
         },
         "runtime": {
           "lib/net8.0/Serilog.AspNetCore.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "8.0.0.0"
+            "assemblyVersion": "8.0.1.0",
+            "fileVersion": "8.0.1.0"
           }
         }
       },
@@ -327,19 +327,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Autofac/7.1.0": {
+    "Autofac/8.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-XCXmpxhOnuztTTRkzG+8B8KU8SR8WjBYwSntndjlsFR5lM3K/g43r9hUwewIPDBJwDrmZU3TjmNdH6s8IF3VFQ==",
-      "path": "autofac/7.1.0",
-      "hashPath": "autofac.7.1.0.nupkg.sha512"
+      "sha512": "sha512-qxVqJcl3fixxa5aZc9TmIuYTwooI9GCL5RzfUiTZtTlbAF3NcWz7bPeEyJEAyS/0qGhSyGnXeku2eiu/7L+3qw==",
+      "path": "autofac/8.0.0",
+      "hashPath": "autofac.8.0.0.nupkg.sha512"
     },
-    "Autofac.Extensions.DependencyInjection/8.0.0": {
+    "Autofac.Extensions.DependencyInjection/9.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nGrXNpQX2FiZpIBydK9cxZnnoqP/cUd3k/53uRERYEqLtWzKtE15R6L+j5q5ax5Rv/+3wAIkOaPePkahfqrwjg==",
-      "path": "autofac.extensions.dependencyinjection/8.0.0",
-      "hashPath": "autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512"
+      "sha512": "sha512-tf+//4MBola256qaaVQqQ6tx2R57S8A8BFekRWNpHkpSFzRBPkU+/fEDUSrCjqldK/B2zRoDbsMcQmYy3PYGWg==",
+      "path": "autofac.extensions.dependencyinjection/9.0.0",
+      "hashPath": "autofac.extensions.dependencyinjection.9.0.0.nupkg.sha512"
     },
     "AutoMapper/12.0.1": {
       "type": "package",
@@ -390,12 +390,12 @@
       "path": "mediatr.contracts/2.0.1",
       "hashPath": "mediatr.contracts.2.0.1.nupkg.sha512"
     },
-    "MediatR.Extensions.Autofac.DependencyInjection/11.3.0": {
+    "MediatR.Extensions.Autofac.DependencyInjection/12.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+ZLtr8FNmZrpjaLXndLgwSvFsLW3IX6ABpQ0MiIvUviYe/HE+kKlwQQXvrSp8Hbmin/ygu2yk4NnP8Zck/FZiw==",
-      "path": "mediatr.extensions.autofac.dependencyinjection/11.3.0",
-      "hashPath": "mediatr.extensions.autofac.dependencyinjection.11.3.0.nupkg.sha512"
+      "sha512": "sha512-cyLHAmsAaST4hw+r9AOFtS8VQAdLjQbQqN97t9+90ifSPFsGdlmiTc1MP7ow68dJHRtS36BpcoKuvHN1R4P5+g==",
+      "path": "mediatr.extensions.autofac.dependencyinjection/12.0.0",
+      "hashPath": "mediatr.extensions.autofac.dependencyinjection.12.0.0.nupkg.sha512"
     },
     "Microsoft.CSharp/4.7.0": {
       "type": "package",
@@ -495,12 +495,12 @@
       "path": "serilog/3.1.1",
       "hashPath": "serilog.3.1.1.nupkg.sha512"
     },
-    "Serilog.AspNetCore/8.0.0": {
+    "Serilog.AspNetCore/8.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-FAjtKPZ4IzqFQBqZKPv6evcXK/F0ls7RoXI/62Pnx2igkDZ6nZ/jn/C/FxVATqQbEQvtqP+KViWYIe4NZIHa2w==",
-      "path": "serilog.aspnetcore/8.0.0",
-      "hashPath": "serilog.aspnetcore.8.0.0.nupkg.sha512"
+      "sha512": "sha512-B/X+wAfS7yWLVOTD83B+Ip9yl4MkhioaXj90JSoWi1Ayi8XHepEnsBdrkojg08eodCnmOKmShFUN2GgEc6c0CQ==",
+      "path": "serilog.aspnetcore/8.0.1",
+      "hashPath": "serilog.aspnetcore.8.0.1.nupkg.sha512"
     },
     "Serilog.Extensions.Hosting/8.0.0": {
       "type": "package",

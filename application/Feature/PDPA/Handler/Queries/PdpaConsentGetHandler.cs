@@ -31,7 +31,7 @@ namespace application.Feature.PDPA.Handler.Queries
                     (int)FilterSearchPdpaConsent.Version => filter.And(e => e.Version.Contains(keyWordSearch)),
                     (int)FilterSearchPdpaConsent.CreationDate => filter.And(e => e.CreationTime.Value.Date == ConvertHelper.StrToDate(keyWordSearch)),
                     (int)FilterSearchPdpaConsent.LastModificationTime => filter.And(e => e.LastModificationTime.Value.Date == ConvertHelper.StrToDate(keyWordSearch)),
-                    (int)FilterSearchPdpaConsent.Status => filter.And(e => (Convert.ToBoolean(e.Status.Value) ? "active" : "inactive") == keyWordSearch),
+                    (int)FilterSearchPdpaConsent.Status => filter.And(e => (e.Status.Value == 1 ? "active" : "inactive") == keyWordSearch),
                     _ => filter,
                 };
             }

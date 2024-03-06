@@ -50,7 +50,7 @@
             },
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             },
             "Dapper": {
               "target": "Package",
@@ -62,11 +62,11 @@
             },
             "MediatR.Extensions.Autofac.DependencyInjection": {
               "target": "Package",
-              "version": "[11.3.0, )"
+              "version": "[12.0.0, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.1, )"
             }
           },
           "imports": [

@@ -21,7 +21,7 @@ namespace api.Extensions
             builder.Services.AddDbContext<_dbContext>(opt =>
             {
                 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-                opt.UseNpgsql(connectionString, b => b.MigrationsAssembly("api"));
+                opt.UseSqlServer(connectionString, b => b.MigrationsAssembly("api"));
             });
 
             builder.Services.AddCors();

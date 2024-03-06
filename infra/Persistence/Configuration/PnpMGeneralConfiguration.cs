@@ -21,7 +21,7 @@ namespace infra.Persistence.Configuration
                 .HasColumnType("int")
                 .HasColumnName("id");
             entity.Property(e => e.DeletedFlag)
-                .HasColumnType("ulong")
+                .HasColumnType("bigint")
                 .HasColumnName("deleted_flag");
             entity.Property(e => e.Typegroup)
                 .HasMaxLength(255)

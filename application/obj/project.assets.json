@@ -2,35 +2,35 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "Autofac/7.1.0": {
+      "Autofac/8.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Diagnostics.DiagnosticSource": "4.7.1"
+          "System.Diagnostics.DiagnosticSource": "7.0.2"
         },
         "compile": {
-          "lib/net7.0/Autofac.dll": {
+          "lib/net8.0/Autofac.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/Autofac.dll": {
+          "lib/net8.0/Autofac.dll": {
             "related": ".xml"
           }
         }
       },
-      "Autofac.Extensions.DependencyInjection/8.0.0": {
+      "Autofac.Extensions.DependencyInjection/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Autofac": "6.4.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+          "Autofac": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
         },
         "compile": {
-          "lib/net6.0/Autofac.Extensions.DependencyInjection.dll": {
+          "lib/net8.0/Autofac.Extensions.DependencyInjection.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/Autofac.Extensions.DependencyInjection.dll": {
+          "lib/net8.0/Autofac.Extensions.DependencyInjection.dll": {
             "related": ".xml"
           }
         }
@@ -137,10 +137,10 @@
           }
         }
       },
-      "MediatR.Extensions.Autofac.DependencyInjection/11.3.0": {
+      "MediatR.Extensions.Autofac.DependencyInjection/12.0.0": {
         "type": "package",
         "dependencies": {
-          "Autofac": "7.1.0",
+          "Autofac": "8.0.0",
           "MediatR": "12.2.0"
         },
         "compile": {
@@ -408,7 +408,7 @@
           }
         }
       },
-      "Serilog.AspNetCore/8.0.0": {
+      "Serilog.AspNetCore/8.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
@@ -625,41 +625,46 @@
     }
   },
   "libraries": {
-    "Autofac/7.1.0": {
-      "sha512": "XCXmpxhOnuztTTRkzG+8B8KU8SR8WjBYwSntndjlsFR5lM3K/g43r9hUwewIPDBJwDrmZU3TjmNdH6s8IF3VFQ==",
+    "Autofac/8.0.0": {
+      "sha512": "qxVqJcl3fixxa5aZc9TmIuYTwooI9GCL5RzfUiTZtTlbAF3NcWz7bPeEyJEAyS/0qGhSyGnXeku2eiu/7L+3qw==",
       "type": "package",
-      "path": "autofac/7.1.0",
+      "path": "autofac/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "autofac.7.1.0.nupkg.sha512",
+        "autofac.8.0.0.nupkg.sha512",
         "autofac.nuspec",
         "icon.png",
         "lib/net6.0/Autofac.dll",
         "lib/net6.0/Autofac.xml",
         "lib/net7.0/Autofac.dll",
         "lib/net7.0/Autofac.xml",
+        "lib/net8.0/Autofac.dll",
+        "lib/net8.0/Autofac.xml",
         "lib/netstandard2.0/Autofac.dll",
         "lib/netstandard2.0/Autofac.xml",
         "lib/netstandard2.1/Autofac.dll",
         "lib/netstandard2.1/Autofac.xml"
       ]
     },
-    "Autofac.Extensions.DependencyInjection/8.0.0": {
-      "sha512": "nGrXNpQX2FiZpIBydK9cxZnnoqP/cUd3k/53uRERYEqLtWzKtE15R6L+j5q5ax5Rv/+3wAIkOaPePkahfqrwjg==",
+    "Autofac.Extensions.DependencyInjection/9.0.0": {
+      "sha512": "tf+//4MBola256qaaVQqQ6tx2R57S8A8BFekRWNpHkpSFzRBPkU+/fEDUSrCjqldK/B2zRoDbsMcQmYy3PYGWg==",
       "type": "package",
-      "path": "autofac.extensions.dependencyinjection/8.0.0",
+      "path": "autofac.extensions.dependencyinjection/9.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+        "README.md",
+        "autofac.extensions.dependencyinjection.9.0.0.nupkg.sha512",
         "autofac.extensions.dependencyinjection.nuspec",
         "icon.png",
-        "lib/net5.0/Autofac.Extensions.DependencyInjection.dll",
-        "lib/net5.0/Autofac.Extensions.DependencyInjection.xml",
         "lib/net6.0/Autofac.Extensions.DependencyInjection.dll",
         "lib/net6.0/Autofac.Extensions.DependencyInjection.xml",
+        "lib/net7.0/Autofac.Extensions.DependencyInjection.dll",
+        "lib/net7.0/Autofac.Extensions.DependencyInjection.xml",
+        "lib/net8.0/Autofac.Extensions.DependencyInjection.dll",
+        "lib/net8.0/Autofac.Extensions.DependencyInjection.xml",
         "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.dll",
         "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.xml",
         "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.dll",
@@ -788,17 +793,17 @@
         "mediatr.contracts.nuspec"
       ]
     },
-    "MediatR.Extensions.Autofac.DependencyInjection/11.3.0": {
-      "sha512": "+ZLtr8FNmZrpjaLXndLgwSvFsLW3IX6ABpQ0MiIvUviYe/HE+kKlwQQXvrSp8Hbmin/ygu2yk4NnP8Zck/FZiw==",
+    "MediatR.Extensions.Autofac.DependencyInjection/12.0.0": {
+      "sha512": "cyLHAmsAaST4hw+r9AOFtS8VQAdLjQbQqN97t9+90ifSPFsGdlmiTc1MP7ow68dJHRtS36BpcoKuvHN1R4P5+g==",
       "type": "package",
-      "path": "mediatr.extensions.autofac.dependencyinjection/11.3.0",
+      "path": "mediatr.extensions.autofac.dependencyinjection/12.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
         "lib/netstandard2.0/MediatR.Extensions.Autofac.DependencyInjection.dll",
         "lib/netstandard2.0/MediatR.Extensions.Autofac.DependencyInjection.pdb",
-        "mediatr.extensions.autofac.dependencyinjection.11.3.0.nupkg.sha512",
+        "mediatr.extensions.autofac.dependencyinjection.12.0.0.nupkg.sha512",
         "mediatr.extensions.autofac.dependencyinjection.nuspec"
       ]
     },
@@ -1334,10 +1339,10 @@
         "serilog.nuspec"
       ]
     },
-    "Serilog.AspNetCore/8.0.0": {
-      "sha512": "FAjtKPZ4IzqFQBqZKPv6evcXK/F0ls7RoXI/62Pnx2igkDZ6nZ/jn/C/FxVATqQbEQvtqP+KViWYIe4NZIHa2w==",
+    "Serilog.AspNetCore/8.0.1": {
+      "sha512": "B/X+wAfS7yWLVOTD83B+Ip9yl4MkhioaXj90JSoWi1Ayi8XHepEnsBdrkojg08eodCnmOKmShFUN2GgEc6c0CQ==",
       "type": "package",
-      "path": "serilog.aspnetcore/8.0.0",
+      "path": "serilog.aspnetcore/8.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1353,7 +1358,7 @@
         "lib/net8.0/Serilog.AspNetCore.xml",
         "lib/netstandard2.0/Serilog.AspNetCore.dll",
         "lib/netstandard2.0/Serilog.AspNetCore.xml",
-        "serilog.aspnetcore.8.0.0.nupkg.sha512",
+        "serilog.aspnetcore.8.0.1.nupkg.sha512",
         "serilog.aspnetcore.nuspec"
       ]
     },
@@ -1675,11 +1680,11 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
-      "Autofac.Extensions.DependencyInjection >= 8.0.0",
+      "Autofac.Extensions.DependencyInjection >= 9.0.0",
       "Dapper >= 2.1.28",
       "FluentValidation.DependencyInjectionExtensions >= 11.9.0",
-      "MediatR.Extensions.Autofac.DependencyInjection >= 11.3.0",
-      "Serilog.AspNetCore >= 8.0.0",
+      "MediatR.Extensions.Autofac.DependencyInjection >= 12.0.0",
+      "Serilog.AspNetCore >= 8.0.1",
       "domain >= 1.0.0"
     ]
   },
@@ -1732,7 +1737,7 @@
           },
           "Autofac.Extensions.DependencyInjection": {
             "target": "Package",
-            "version": "[8.0.0, )"
+            "version": "[9.0.0, )"
           },
           "Dapper": {
             "target": "Package",
@@ -1744,11 +1749,11 @@
           },
           "MediatR.Extensions.Autofac.DependencyInjection": {
             "target": "Package",
-            "version": "[11.3.0, )"
+            "version": "[12.0.0, )"
           },
           "Serilog.AspNetCore": {
             "target": "Package",
-            "version": "[8.0.0, )"
+            "version": "[8.0.1, )"
           }
         },
         "imports": [
