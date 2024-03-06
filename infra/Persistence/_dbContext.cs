@@ -15,12 +15,14 @@ namespace infra.Persistence
         { 
         }
         #region PDPA
-        public virtual DbSet<PdpaConsent> PdpaConsents { get; set; }
+/*        public virtual DbSet<PdpaConsent> PdpaConsents { get; set; }
+        public virtual DbSet<PdpaPrivacy> PdpaPrivacyPolicies { get; set; }*/
         #endregion
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfiguration(new PdpaConsentConfiguration());
-            modelBuilder.ApplyConfiguration(new PdpaPrivacyConfiguration());
+/*            modelBuilder.ApplyConfiguration(new PdpaConsentConfiguration());
+            modelBuilder.ApplyConfiguration(new PdpaPrivacyConfiguration());*/
+            modelBuilder.ApplyConfiguration(new PnpMGeneralConfiguration());    
             
         }
     }
