@@ -1689,19 +1689,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\chanisorn\\.nuget\\packages\\": {}
+    "C:\\Users\\Admins\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\application\\application.csproj",
+      "projectUniqueName": "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\application\\application.csproj",
       "projectName": "application",
-      "projectPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\application\\application.csproj",
-      "packagesPath": "C:\\Users\\chanisorn\\.nuget\\packages\\",
-      "outputPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\application\\obj\\",
+      "projectPath": "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\application\\application.csproj",
+      "packagesPath": "C:\\Users\\Admins\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\chanisorn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admins\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1715,8 +1715,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj": {
-              "projectPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj"
+            "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\domain\\domain.csproj": {
+              "projectPath": "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\domain\\domain.csproj"
             }
           }
         }

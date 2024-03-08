@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj": {}
+    "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\domain\\domain.csproj": {}
   },
   "projects": {
-    "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj": {
+    "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\domain\\domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj",
+        "projectUniqueName": "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\domain\\domain.csproj",
         "projectName": "domain",
-        "projectPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj",
-        "packagesPath": "C:\\Users\\chanisorn\\.nuget\\packages\\",
-        "outputPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\obj\\",
+        "projectPath": "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\domain\\domain.csproj",
+        "packagesPath": "C:\\Users\\Admins\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\chanisorn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admins\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
