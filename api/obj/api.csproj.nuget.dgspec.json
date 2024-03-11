@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\api\\api.csproj": {}
+    "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\api\\api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\api\\api.csproj": {
+    "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\api\\api.csproj",
+        "projectUniqueName": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\api\\api.csproj",
-        "packagesPath": "C:\\Users\\Admins\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\api\\obj\\",
+        "projectPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\api\\api.csproj",
+        "packagesPath": "C:\\Users\\chanisorn\\.nuget\\packages\\",
+        "outputPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chanisorn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\infra\\infra.csproj": {
-                "projectPath": "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\infra\\infra.csproj"
+              "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\infra\\infra.csproj": {
+                "projectPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\infra\\infra.csproj"
               }
             }
           }
@@ -84,17 +84,17 @@
         }
       }
     },
-    "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\application\\application.csproj": {
+    "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\application\\application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\application\\application.csproj",
+        "projectUniqueName": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\application\\application.csproj",
         "projectName": "application",
-        "projectPath": "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\application\\application.csproj",
-        "packagesPath": "C:\\Users\\Admins\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\application\\obj\\",
+        "projectPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\application\\application.csproj",
+        "packagesPath": "C:\\Users\\chanisorn\\.nuget\\packages\\",
+        "outputPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chanisorn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -108,8 +108,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\domain\\domain.csproj": {
-                "projectPath": "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\domain\\domain.csproj"
+              "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj": {
+                "projectPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj"
               }
             }
           }
@@ -169,17 +169,17 @@
         }
       }
     },
-    "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\domain\\domain.csproj": {
+    "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\domain\\domain.csproj",
+        "projectUniqueName": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj",
         "projectName": "domain",
-        "projectPath": "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\domain\\domain.csproj",
-        "packagesPath": "C:\\Users\\Admins\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\domain\\obj\\",
+        "projectPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj",
+        "packagesPath": "C:\\Users\\chanisorn\\.nuget\\packages\\",
+        "outputPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chanisorn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -224,17 +224,17 @@
         }
       }
     },
-    "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\infra\\infra.csproj": {
+    "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\infra\\infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\infra\\infra.csproj",
+        "projectUniqueName": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\infra\\infra.csproj",
         "projectName": "infra",
-        "projectPath": "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\infra\\infra.csproj",
-        "packagesPath": "C:\\Users\\Admins\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\infra\\obj\\",
+        "projectPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\infra\\infra.csproj",
+        "packagesPath": "C:\\Users\\chanisorn\\.nuget\\packages\\",
+        "outputPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chanisorn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -248,11 +248,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\application\\application.csproj": {
-                "projectPath": "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\application\\application.csproj"
+              "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\application\\application.csproj": {
+                "projectPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\application\\application.csproj"
               },
-              "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\domain\\domain.csproj": {
-                "projectPath": "C:\\Users\\Admins\\Desktop\\myCode\\C_#\\template-web-db-api\\domain\\domain.csproj"
+              "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj": {
+                "projectPath": "D:\\Chanisorn Ueasomsaksakul\\Documents\\GitHub\\template-web-db-api\\domain\\domain.csproj"
               }
             }
           }

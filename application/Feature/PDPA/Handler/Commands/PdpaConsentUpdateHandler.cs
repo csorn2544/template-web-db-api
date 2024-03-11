@@ -39,6 +39,8 @@ public sealed class PdpaConsentUpdateHandler(IPdpaConsentRepository repository) 
         item.DescriptionTh = request.DescriptionTh ?? item.DescriptionTh;
         item.DescriptionEn = request.DescriptionEn ?? item.DescriptionEn;
         item.DescriptionZh = request.DescriptionZh ?? item.DescriptionZh;
+        item.Status = request.Status;
+        item.LastModificationTime = DateTime.UtcNow;
 
         var response = await _repository.UpdateAsync(item, cancellationToken);
 
